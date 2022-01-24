@@ -45,4 +45,6 @@ private:
     static void printDegreeString(int dp);
 
     void printMajor(int idx);
+
+    void test();
 };
