@@ -23,11 +23,12 @@ void Roster::test() {
 
     string usr[9];
     std::unordered_map<int, string[9]> usrMap;
-//usrMap[0] =
+usrMap[0] =  {"A1","John","Smith","John1989@gmail.com",
+              "20","30","35","40","SECURITY"};
 
-    usrMap.insert(make_pair(
-            0, {"A1","John","Smith","John1989@gmail.com","20","30","35","40","SECURITY"}
-            ));
+//    usrMap.insert(make_pair(
+//            0, {"A1","John","Smith","John1989@gmail.com","20","30","35","40","SECURITY"}
+//            ));
 }
 
 void Roster::printMajor(int idx) {
