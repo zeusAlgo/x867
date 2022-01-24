@@ -246,6 +246,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 cout << " ";
                 cout << "First Name: ";
                 classRosterArray[i] -> print(1);
+                classRosterArray[i] -> printUsr(1);
                 cout << " ";
                 cout << "Last Name:";
                 classRosterArray[i] -> print(2);
