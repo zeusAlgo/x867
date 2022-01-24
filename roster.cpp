@@ -22,10 +22,10 @@ void Roster::test() {
             "A5,Regis,Tribbet,registribbet@gmail.com,10,20,200,SOFTWARE"
     };
 
-    string usr[9];
-    map<int, string[]> usrMap;
-usrMap[0] =  {"A1","John","Smith","John1989@gmail.com",
-              "20","30","35","40","SECURITY"};
+//    string usr[9];
+//    map<int, string[]> usrMap;
+//usrMap[0] =  {"A1","John","Smith","John1989@gmail.com",
+//              "20","30","35","40","SECURITY"};
 
 //    usrMap.insert(make_pair(
 //            0, {"A1","John","Smith","John1989@gmail.com","20","30","35","40","SECURITY"}

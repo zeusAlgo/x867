@@ -150,7 +150,9 @@ CMakeFiles/c867.dir/roster.cpp.o: \
  /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/erase_if.h \
+ /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
+ /usr/include/c++/11/bits/stl_multimap.h \
  /home/zeusalgo/CLionProjects/x867/student.h \
  /home/zeusalgo/CLionProjects/x867/degree.h \
  /home/zeusalgo/CLionProjects/x867/roster.h

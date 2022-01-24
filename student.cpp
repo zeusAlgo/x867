@@ -47,7 +47,7 @@ void Student::print(int val) {
     usrHmap[8] = degreeProgram;
 
     cout << usrHmap[val];
-    
+
     switch(val) {
         case 0:
             cout<< studentId; break;

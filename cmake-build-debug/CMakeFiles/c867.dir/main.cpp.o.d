@@ -144,4 +144,13 @@ CMakeFiles/c867.dir/main.cpp.o: \
  /usr/include/c++/11/bits/istream.tcc \
  /home/zeusalgo/CLionProjects/x867/roster.h \
  /home/zeusalgo/CLionProjects/x867/student.h \
- /home/zeusalgo/CLionProjects/x867/degree.h
+ /home/zeusalgo/CLionProjects/x867/degree.h \
+ /usr/include/c++/11/unordered_map \
+ /usr/include/c++/11/ext/aligned_buffer.h \
+ /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/hashtable_policy.h /usr/include/c++/11/tuple \
+ /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+ /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/bits/invoke.h \
+ /usr/include/c++/11/bits/unordered_map.h \
+ /usr/include/c++/11/bits/erase_if.h
