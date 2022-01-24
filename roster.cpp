@@ -23,7 +23,6 @@ void Roster::printDegreeString(int idx) {
         default:
             cout << "NULL"; break;
     }
-    // instantiate hashmap and print degree string from that
 }
 
 void Roster::addStudent(int index, string a, string b, string c, string d,
