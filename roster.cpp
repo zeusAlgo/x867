@@ -173,11 +173,11 @@ void Roster::parseArray(int rosterIndex) {
 void Roster::printAll() {
     for (int idx = 0; idx < 5; idx++) {
         if (classRosterArray[idx] -> getId() != "NUL") {
-           cout << classRosterArray[idx]->getId(); cout << " ";
-           cout << classRosterArray[idx]->getFirstName(); cout << " ";
-            classRosterArray[idx] -> print(2); cout << " ";
-            classRosterArray[idx] -> print(3); cout << " ";
-            classRosterArray[idx] -> print(4); cout << " ";
+            cout << classRosterArray[idx]->getId();
+            cout << classRosterArray[idx]->getFirstName(); cout << " ";
+            cout << classRosterArray[idx]->getLastName(); cout << " ";
+            cout << classRosterArray[idx]->getEmailAddress(); cout << " ";
+            cout << classRosterArray[idx]->getAge(); cout << " ";
             classRosterArray[idx] -> print(5); cout << ",";
             classRosterArray[idx] -> print(6); cout << ",";
             classRosterArray[idx] -> print(7); cout << ") \n"; cout << "Degree Program:";
