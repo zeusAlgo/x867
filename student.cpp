@@ -6,14 +6,17 @@
 using namespace std;
 
 Student::Student() {
-    this -> studentId = ""; this -> firstName = ""; this -> lastName = "";
-    this -> emailAddress = ""; this -> age = "";
+    this->studentId = "";
+    this->firstName = "";
+    this->lastName = "";
+    this->emailAddress = "";
+    this->age = "";
 
-    for (int & idx : this -> daysInCourse) {
+    for (int &idx: this->daysInCourse) {
         idx = 0;
     }
-    this -> degreeProgram = INIT;
-
+    this->degreeProgram = INIT;
+}
 string Student::getId() {return studentId;}
 string Student::getFirstName() {return firstName;}
 string Student::getLastName() {return lastName;}
@@ -80,5 +83,4 @@ void Student::print(int val) {
         default:
             cout << "error"; break;
     }
-}
 }
