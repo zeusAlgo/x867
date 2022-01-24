@@ -55,7 +55,7 @@ void Roster::printDegreeString(int idx) {
 
 void Roster::addStudent(int index, string a, string b, string c, string d, string e, int f,
                         int g, int h, DegreeProgram x) {
-    const int indexConst = index;
+    const int idx = index;
     auto* xstudent = new Student();
     xstudent -> setId(move(a));
     xstudent -> setFirstName(move(b));
@@ -65,7 +65,7 @@ void Roster::addStudent(int index, string a, string b, string c, string d, strin
     xstudent -> setDays(f, g, h);
     xstudent ->setDegreeProgram(x);
 
-    classRosterArray[indexConst] = xstudent;
+    classRosterArray[idx] = xstudent;
 
 }
 
