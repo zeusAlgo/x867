@@ -201,7 +201,7 @@ void Roster::printMeanDaysInCourse(string sId) {
             daysC = this -> classRosterArray[indexNum] -> getDays(2);
 
             mean = (daysA + daysB + daysC) / 3;
-            cout << mean << "days is the mean days in course for student " << sId;
+            cout << mean << " days is the mean days in course for student " << sId;
             cout << endl;
             break;
         } else {
