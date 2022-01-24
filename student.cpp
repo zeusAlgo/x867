@@ -13,7 +13,7 @@ Student::Student() {
         idx = 0;
     }
     this -> degreeProgram = INIT;
-}
+
 string Student::getId() {return studentId;}
 string Student::getFirstName() {return firstName;}
 string Student::getLastName() {return lastName;}
@@ -80,4 +80,5 @@ void Student::print(int val) {
         default:
             cout << "error"; break;
     }
+}
 }
