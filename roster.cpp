@@ -187,7 +187,7 @@ void Roster::printAll() {
     }
     cout << endl;
 }
-
+// create add space helper func
 void Roster::printMeanDaysInCourse(const string& sId) const {
     for (int idx = 0; idx <= 5; idx++) {
         if (sId == classRosterArray[idx]->getId()) {
