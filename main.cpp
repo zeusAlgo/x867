@@ -11,6 +11,7 @@ int main() {
     }
 
     cout << "Printing all students: " << endl;
+    cout << "------------------------" << endl;
     classRoster -> printAll();
     classRoster -> printInvalidEmails();
 
