@@ -197,8 +197,6 @@ void Roster::printMeanDaysInCourse(string sId) {
             cout << mean <<
             " days is the mean days in course for student " << sId;
             cout << endl;
-        } else {
-//            continue;
         }
     }
 }
