@@ -13,8 +13,8 @@ const string studentData[5] = {
         "A5,Regis,Tribbet,registribbet@gmail.com,10,20,200,SOFTWARE"
 };
 
-string usr[9];
-std::unordered_map<int, string[9]> usrMap;
+//string usr[9];
+//std::unordered_map<int, string[9]> usrMap;
 //usrMap[0] =
 
 //usrMap.insert(make_pair(0, {"A1","John","Smith","John1989@gmail.com","20","30","35","40","SECURITY"};));
