@@ -15,9 +15,12 @@ Student::Student() {
 
     this -> degreeProgram = INIT;
 }
-string Student::getId() {return studentId;} string Student::getFirstName() {return firstName;}
-string Student::getLastName() {return lastName;} string Student::getEmailAddress() {return emailAddress;}
-string Student::getAge() {return age;} int Student::getDays(int atArray) {return daysInCourse[atArray];}
+string Student::getId() {return studentId;}
+string Student::getFirstName() {return firstName;}
+string Student::getLastName() {return lastName;}
+string Student::getEmailAddress() {return emailAddress;}
+string Student::getAge() {return age;}
+int Student::getDays(int atArray) {return daysInCourse[atArray];}
 DegreeProgram Student::getDegreeProgram() {return degreeProgram;}
 
 void Student::setId(string studentId) {this -> studentId = move(studentId);}
