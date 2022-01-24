@@ -12,24 +12,6 @@ Roster::Roster() { classRosterArray = new Student * [5];};
 
 Roster::~Roster() { delete[] classRosterArray;};
 
-void Roster::test() {
-    const string studentData[5] = {
-            "A1,John,Smith,John1989@gmail.com,20,30,35,40,SECURITY",
-            "A2,Suzan,Erickson,Erickson_199@gmail.com,19,50,30,40,NETWORK",
-            "A3,Jack,Napoli,The_lawyer99@yahoo.com,19,20,40,33,SOFTWARE",
-            "A4,Erin,Black,Erin.black@comcast.net,22,40,58,40,SECURITY",
-            "A5,Regis,Tribbet,registribbet@gmail.com,10,20,200,SOFTWARE"
-    };
-}
-
-void Roster::printMajor(int idx) {
-    std::unordered_map<int, string>degreeHashmap;
-    degreeHashmap[0] = "SECURITY";
-    degreeHashmap[1] = "NETWORK";
-    degreeHashmap[2] = "SOFTWARE";
-    cout << degreeHashmap[idx];
-}
-
 void Roster::printDegreeString(int idx) {
     switch (idx) {
         case 0:
