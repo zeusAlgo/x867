@@ -173,6 +173,7 @@ void Roster::parseArray(int rosterIndex) {
 void Roster::printAll() {
     for (int i = 0; i < 5; i++) {
         if (classRosterArray[i] -> getId() != "NUL") {
+            classRosterArray[i]->getId(); cout << " ";
             classRosterArray[i] -> print(0); cout << " ";
             classRosterArray[i] -> print(1); cout << " ";
             classRosterArray[i] -> print(2); cout << " ";
