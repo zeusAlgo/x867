@@ -244,21 +244,21 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 classRosterArray[i] -> print(0);
                 cout << " ";
                 cout << "First Name: ";
-                classRosterArray[i] -> print(1);
+//                classRosterArray[i] -> print(1);
                 classRosterArray[i] -> printUsr(1);
                 cout << " ";
                 cout << "Last Name:";
-                classRosterArray[i] -> print(2);
+                classRosterArray[i] -> printUsr(2);
                 cout << " ";
                 cout << "Age: ";
-                classRosterArray[i] -> print(4);
+                classRosterArray[i] -> printUsr(4);
                 cout << "";
                 cout << "Days in Course {";
-                classRosterArray[i] -> print(5);
+                classRosterArray[i] -> printUsr(5);
                 cout << " ";
-                classRosterArray[i] -> print(6);
+                classRosterArray[i] -> printUsr(6);
                 cout << " ";
-                classRosterArray[i] -> print(7);
+                classRosterArray[i] -> printUsr(7);
                 cout << "}";
                 cout << "Degree Program: ";
 
