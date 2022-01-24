@@ -1,0 +1,3 @@
+/home/zeusalgo/CLionProjects/x867/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zeusalgo/CLionProjects/x867/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zeusalgo/CLionProjects/x867/cmake-build-debug/CMakeFiles/c867.dir

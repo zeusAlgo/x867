@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/c867.dir/main.cpp.o CMakeFiles/c867.dir/roster.cpp.o CMakeFiles/c867.dir/student.cpp.o -o c867 
