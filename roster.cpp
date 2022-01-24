@@ -53,19 +53,19 @@ void Roster::printDegreeString(int idx) {
     // instantiate hashmap and print degree string from that
 }
 
-void Roster::addStudent(int index, string a, string b, string c, string d, string e, int f,
-                        int g, int h, DegreeProgram x) {
+void Roster::addStudent(int index, string a, string b, string c, string d,
+                        string e, int f,int g, int h, DegreeProgram x) {
     const int idx = index;
-    auto* xstudent = new Student();
-    xstudent -> setId(move(a));
-    xstudent -> setFirstName(move(b));
-    xstudent -> setLastName(move(c));
-    xstudent -> setEmailAddress(move(d));
-    xstudent -> setAge(move(e));
-    xstudent -> setDays(f, g, h);
-    xstudent ->setDegreeProgram(x);
+    auto* newStudent = new Student();
+    newStudent -> setId(move(a));
+    newStudent -> setFirstName(move(b));
+    newStudent -> setLastName(move(c));
+    newStudent -> setEmailAddress(move(d));
+    newStudent -> setAge(move(e));
+    newStudent -> setDays(f, g, h);
+    newStudent ->setDegreeProgram(x);
 
-    classRosterArray[idx] = xstudent;
+    classRosterArray[idx] = newStudent;
 
 }
 
