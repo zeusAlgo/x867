@@ -12,7 +12,6 @@ Student::Student() {
     for (int & idx : this -> daysInCourse) {
         idx = 0;
     }
-
     this -> degreeProgram = INIT;
 }
 string Student::getId() {return studentId;}

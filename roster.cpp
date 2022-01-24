@@ -247,7 +247,8 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 cout << "}";
                 cout << "Degree Program: ";
 
-                printDegreeString(classRosterArray[i] -> getDegreeProgram());
+                printDegreeString(
+                        classRosterArray[i] -> getDegreeProgram());
                 cout << endl;
             }
         }
