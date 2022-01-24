@@ -205,7 +205,7 @@ void Roster::printMeanDaysInCourse(string sId) {
             cout << endl;
             break;
         } else {
-            indexFound = false;
+//            indexFound = false;
             continue;
         }
     }
