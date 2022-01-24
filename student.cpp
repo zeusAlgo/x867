@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <utility>
+#include <unordered_map>
 #include "student.h"
 
 using namespace std;
@@ -37,6 +38,9 @@ void Student::setDays(int int0, int int1, int int2) {
 void Student::setDegreeProgram(DegreeProgram degree) {this-> degreeProgram = degree;}
 
 void Student::print(int val) {
+
+    unordered_map<int, string> usrHmap;
+    usrHmap[0] = 
     switch(val) {
         case 0:
             cout<< studentId; break;
