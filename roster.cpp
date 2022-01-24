@@ -3,6 +3,7 @@
 #include <string>
 #include <sstream>
 #include <unordered_map>
+#include <map>
 #include "student.h"
 #include "degree.h"
 #include "roster.h"
@@ -22,7 +23,7 @@ void Roster::test() {
     };
 
     string usr[9];
-    std::unordered_map<int, string[9]> usrMap;
+    map<int, string[]> usrMap;
 usrMap[0] =  {"A1","John","Smith","John1989@gmail.com",
               "20","30","35","40","SECURITY"};
 
