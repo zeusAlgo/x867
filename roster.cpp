@@ -190,7 +190,7 @@ void Roster::printAll() {
 
 void Roster::printMeanDaysInCourse(const string& sId) const {
     for (int idx = 0; idx <= 5; idx++) {
-        if (classRosterArray[idx] -> getId() == sId) {
+        if (sId == classRosterArray[idx]->getId()) {
             int mean = (classRosterArray[idx] ->getDays(0) +
                         classRosterArray[idx] ->getDays(1) +
                         classRosterArray[idx] ->getDays(2)) / 3;
