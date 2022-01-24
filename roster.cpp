@@ -126,7 +126,8 @@ void Roster::parseArray(int rosterIndex) {
     }
 
     stringstream  daysConvert0(stringDays0);
-    stringstream  daysConvert1(stringDays1); stringstream  daysConvert2(stringDays2);
+    stringstream  daysConvert1(stringDays1);
+    stringstream  daysConvert2(stringDays2);
     daysConvert0 >> days0; daysConvert1 >> days1; daysConvert2 >> days2;
 
     if (degreeProgramString == "SECURITY") {
