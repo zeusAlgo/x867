@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include <unordered_map>
 #include <map>
 #include "student.h"
 #include "degree.h"
@@ -9,7 +8,6 @@
 using namespace std;
 
 Roster::Roster() { classRosterArray = new Student * [5];};
-
 Roster::~Roster() { delete[] classRosterArray;};
 
 void Roster::printDegreeString(int idx) {
