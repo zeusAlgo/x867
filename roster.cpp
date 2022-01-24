@@ -194,31 +194,18 @@ void Roster::printMeanDaysInCourse(string sId) {
 
     for (int idx = 0; idx <= 5; idx++) {
         if (this -> classRosterArray[idx] -> getId() == sId) {
-            indexNum = idx;
-//            indexFound = true;
             daysA = this -> classRosterArray[idx] -> getDays(0);
             daysB = this -> classRosterArray[idx] -> getDays(1);
             daysC = this -> classRosterArray[idx] -> getDays(2);
 
-            mean = (daysA + daysB + daysC) / 3;
+            mean = (classRosterArray[idx] ->getDays(0) + daysB + daysC) / 3;
             cout << mean << " days is the mean days in course for student " << sId;
             cout << endl;
-            break;
         } else {
 //            indexFound = false;
             continue;
         }
     }
-
-//    if (indexFound) {
-//        daysA = this -> classRosterArray[indexNum] -> getDays(0);
-//        daysB = this -> classRosterArray[indexNum] -> getDays(1);
-//        daysC = this -> classRosterArray[indexNum] -> getDays(2);
-//
-//        mean = (daysA + daysB + daysC) / 3;
-//        cout << mean << "days is the mean days in course for student " << sId;
-//        cout << endl;
-//    }
 }
 
 void Roster::printInvalidEmails() {
