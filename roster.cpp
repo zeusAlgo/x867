@@ -195,7 +195,7 @@ void Roster::printMeanDaysInCourse(string sId) {
     for (int i = 0; i <= 5; i++) {
         if (this -> classRosterArray[i] -> getId() == sId) {
             indexNum = i;
-            indexFound = true;
+//            indexFound = true;
             daysA = this -> classRosterArray[indexNum] -> getDays(0);
             daysB = this -> classRosterArray[indexNum] -> getDays(1);
             daysC = this -> classRosterArray[indexNum] -> getDays(2);
