@@ -42,7 +42,9 @@ void Student::setDays(int int0, int int1, int int2) {
     this -> daysInCourse[2] = int2;
 }
 
-void Student::setDegreeProgram(DegreeProgram degree) {this-> degreeProgram = degree;}
+void Student::setDegreeProgram(DegreeProgram degree) {
+    this-> degreeProgram = degree;
+}
 
 void Student::printUsr(int val) {
     unordered_map<int, string> usrHmap;
