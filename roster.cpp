@@ -192,13 +192,13 @@ void Roster::printMeanDaysInCourse(string sId) {
     int mean; int daysA; int daysB; int daysC;
     bool indexFound = false; int indexNum = 0;
 
-    for (int i = 0; i <= 5; i++) {
-        if (this -> classRosterArray[i] -> getId() == sId) {
-            indexNum = i;
+    for (int idx = 0; idx <= 5; idx++) {
+        if (this -> classRosterArray[idx] -> getId() == sId) {
+            indexNum = idx;
 //            indexFound = true;
-            daysA = this -> classRosterArray[indexNum] -> getDays(0);
-            daysB = this -> classRosterArray[indexNum] -> getDays(1);
-            daysC = this -> classRosterArray[indexNum] -> getDays(2);
+            daysA = this -> classRosterArray[idx] -> getDays(0);
+            daysB = this -> classRosterArray[idx] -> getDays(1);
+            daysC = this -> classRosterArray[idx] -> getDays(2);
 
             mean = (daysA + daysB + daysC) / 3;
             cout << mean << " days is the mean days in course for student " << sId;
