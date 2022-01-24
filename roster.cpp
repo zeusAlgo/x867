@@ -153,7 +153,8 @@ void Roster::printAll() {
             cout << classRosterArray[idx]->getAge(); cout << " ";
             cout << classRosterArray[idx]->getDays(0);cout << ", ";
             cout << classRosterArray[idx]->getDays(1);cout << ", ";
-            cout << classRosterArray[idx]->getDays(2) ;cout << " \n"; cout << "Degree Program:";
+            cout << classRosterArray[idx]->getDays(2) ;cout << " \n";
+            cout << "Degree Program:";
             printDegreeString(classRosterArray[idx] -> getDegreeProgram());
             cout << endl;
         }
@@ -179,7 +180,8 @@ void Roster::printInvalidEmails() {
 
     for (int i = 0; i < 5; i++) {
         std::string emailStr = classRosterArray[i] -> getEmailAddress();
-        if ((emailStr.find('@') != std::string::npos) && emailStr.find('.') != std::string::npos) {
+        if ((emailStr.find('@') != std::string::npos) &&
+                emailStr.find('.') != std::string::npos) {
             if (emailStr.find(' ') != std::string::npos) {
                 std::cout << emailStr;
                 std::cout << std::endl;
