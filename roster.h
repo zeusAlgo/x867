@@ -35,7 +35,7 @@ public:
 
     void printAll();
 
-    void printMeanDaysInCourse(string sId);
+    void printMeanDaysInCourse(const string& sId) const;
 
     void printInvalidEmails();
 

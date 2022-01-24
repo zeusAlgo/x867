@@ -188,7 +188,7 @@ void Roster::printAll() {
     cout << endl;
 }
 
-void Roster::printMeanDaysInCourse(string sId) {
+void Roster::printMeanDaysInCourse(const string& sId) const {
     for (int idx = 0; idx <= 5; idx++) {
         if (this -> classRosterArray[idx] -> getId() == sId) {
             int mean = (classRosterArray[idx] ->getDays(0) +
