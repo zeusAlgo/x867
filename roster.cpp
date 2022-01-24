@@ -66,7 +66,6 @@ void Roster::addStudent(int index, string a, string b, string c, string d,
     newStudent ->setDegreeProgram(x);
 
     classRosterArray[idx] = newStudent;
-
 }
 
 void Roster::removeStudent(string sId) {
@@ -197,6 +196,13 @@ void Roster::printMeanDaysInCourse(string sId) {
         if (this -> classRosterArray[i] -> getId() == sId) {
             indexNum = i;
             indexFound = true;
+            daysA = this -> classRosterArray[indexNum] -> getDays(0);
+            daysB = this -> classRosterArray[indexNum] -> getDays(1);
+            daysC = this -> classRosterArray[indexNum] -> getDays(2);
+
+            mean = (daysA + daysB + daysC) / 3;
+            cout << mean << "days is the mean days in course for student " << sId;
+            cout << endl;
             break;
         } else {
             indexFound = false;
@@ -204,15 +210,15 @@ void Roster::printMeanDaysInCourse(string sId) {
         }
     }
 
-    if (indexFound) {
-        daysA = this -> classRosterArray[indexNum] -> getDays(0);
-        daysB = this -> classRosterArray[indexNum] -> getDays(1);
-        daysC = this -> classRosterArray[indexNum] -> getDays(2);
-
-        mean = (daysA + daysB + daysC) / 3;
-        cout << mean << "days is the mean days in course for student " << sId;
-        cout << endl;
-    }
+//    if (indexFound) {
+//        daysA = this -> classRosterArray[indexNum] -> getDays(0);
+//        daysB = this -> classRosterArray[indexNum] -> getDays(1);
+//        daysC = this -> classRosterArray[indexNum] -> getDays(2);
+//
+//        mean = (daysA + daysB + daysC) / 3;
+//        cout << mean << "days is the mean days in course for student " << sId;
+//        cout << endl;
+//    }
 }
 
 void Roster::printInvalidEmails() {
