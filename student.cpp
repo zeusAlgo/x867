@@ -37,8 +37,7 @@ void Student::setDays(int int0, int int1, int int2) {
 
 void Student::setDegreeProgram(DegreeProgram degree) {this-> degreeProgram = degree;}
 
-void Student::print(int val) {
-
+void Student::printUsr(int val) {
     unordered_map<int, string> usrHmap;
     usrHmap[0] = studentId; usrHmap[1] = firstName;
     usrHmap[2] = lastName; usrHmap[3] = emailAddress;
@@ -47,6 +46,11 @@ void Student::print(int val) {
     usrHmap[8] = degreeProgram;
 
     cout << usrHmap[val];
+}
+
+void Student::print(int val) {
+
+
 
     switch(val) {
         case 0:
