@@ -171,18 +171,17 @@ void Roster::parseArray(int rosterIndex) {
 }
 
 void Roster::printAll() {
-    for (int i = 0; i < 5; i++) {
-        if (classRosterArray[i] -> getId() != "NUL") {
-            classRosterArray[i]->getId(); cout << " ";
-            classRosterArray[i] -> print(0); cout << " ";
-            classRosterArray[i] -> print(1); cout << " ";
-            classRosterArray[i] -> print(2); cout << " ";
-            classRosterArray[i] -> print(3); cout << " ";
-            classRosterArray[i] -> print(4); cout << " ";
-            classRosterArray[i] -> print(5); cout << ",";
-            classRosterArray[i] -> print(6); cout << ",";
-            classRosterArray[i] -> print(7); cout << ") \n"; cout << "Degree Program:";
-            printDegreeString(classRosterArray[i] -> getDegreeProgram());
+    for (int idx = 0; idx < 5; idx++) {
+        if (classRosterArray[idx] -> getId() != "NUL") {
+           cout << classRosterArray[idx]->getId(); cout << " ";
+           cout << classRosterArray[idx]->getFirstName(); cout << " ";
+            classRosterArray[idx] -> print(2); cout << " ";
+            classRosterArray[idx] -> print(3); cout << " ";
+            classRosterArray[idx] -> print(4); cout << " ";
+            classRosterArray[idx] -> print(5); cout << ",";
+            classRosterArray[idx] -> print(6); cout << ",";
+            classRosterArray[idx] -> print(7); cout << ") \n"; cout << "Degree Program:";
+            printDegreeString(classRosterArray[idx] -> getDegreeProgram());
             cout << endl;
         }
     }
