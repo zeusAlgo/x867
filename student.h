@@ -21,4 +21,6 @@ private:
     string studentId; string firstName; string lastName;
     string emailAddress; string age; int daysInCourse[3];
     DegreeProgram degreeProgram;
+
+    void printUsr(int val);
 };
