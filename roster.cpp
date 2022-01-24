@@ -144,11 +144,11 @@ void Roster::parseArray(int rosterIndex) {
 void Roster::printAll() {
     for (int idx = 0; idx < 5; idx++) {
         if (classRosterArray[idx] -> getId() != "NUL") {
-            cout << classRosterArray[idx]->getId();
-            cout << classRosterArray[idx]->getFirstName(); cout << " ";
-            cout << classRosterArray[idx]->getLastName(); cout << " ";
-            cout << classRosterArray[idx]->getEmailAddress(); cout << " ";
-            cout << classRosterArray[idx]->getAge(); cout << " ";
+            cout << classRosterArray[idx]->getId(); printSpace();
+            cout << classRosterArray[idx]->getFirstName(); printSpace();
+            cout << classRosterArray[idx]->getLastName(); printSpace();
+            cout << classRosterArray[idx]->getEmailAddress(); printSpace();
+            cout << classRosterArray[idx]->getAge(); printSpace();
             cout << classRosterArray[idx]->getDays(0);cout << ", ";
             cout << classRosterArray[idx]->getDays(1);cout << ", ";
             cout << classRosterArray[idx]->getDays(2) ;cout << " \n";
@@ -159,7 +159,11 @@ void Roster::printAll() {
     }
     cout << endl;
 }
-// create add space helper func
+
+void Roster::printSpace() {
+    cout << " ";
+}
+
 void Roster::printMeanDaysInCourse(const string& sId) const {
     for (int idx = 0; idx <= 5; idx++) {
         if (sId == classRosterArray[idx]->getId()) {
