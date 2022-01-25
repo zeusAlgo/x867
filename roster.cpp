@@ -15,11 +15,11 @@ void Roster::printDegreeString(int idx) {
         case 0:
             cout << "SECURITY"; break;
         case 1:
-            cout << "NETWORK";
+            cout << "NETWORK"; break;
         case 3:
-            cout << "SOFTWARE";
+            cout << "SOFTWARE"; break;
         default:
-            cout << "NULL";
+            cout << "NULL"; break;
     }
 }
 
