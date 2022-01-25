@@ -50,9 +50,8 @@ void Roster::removeStudent(const string& sId) const {
                 classRosterArray[idx] = classRosterArray[idx + 1];
             }
             cout << "Done";
-            break;
+            return;
         }
-        break;
     }
     cout << "Student " << sId << " not found.";
 }
