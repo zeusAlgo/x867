@@ -132,6 +132,9 @@ void Roster::parseArray(int rosterIndex) {
         studentDegree = SECURITY;
     } else if (degreeProgramString == "NETWORK") {
         studentDegree = NETWORK;
+
+    } else if (degreeProgramString == "SOFTWARE") {
+        studentDegree = SOFTWARE;
     } else  {
         studentDegree = INIT;
     }
@@ -217,6 +220,8 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 cout << "First Name: ";
 //                classRosterArray[i] -> print(1);
                 classRosterArray[i] -> printUsr(1);
+                // skip call to printUzr & call corresponding property from
+                // student class
                 cout << " ";
                 cout << "Last Name:";
                 classRosterArray[i] -> printUsr(2);
