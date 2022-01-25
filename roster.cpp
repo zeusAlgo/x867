@@ -198,6 +198,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
 //            degreeIdx -= 1;
 //        }
         cout << degreeIdx;
+        // ?
         cout << degreeProgram;
         if ((degreeProgram == currentStudent->getDegreeProgram()) |
             (currentStudent->getDegreeProgram()== 3 && degreeProgram == 2)) {
