@@ -176,8 +176,7 @@ void Roster::printMeanDaysInCourse(const string& sId) const {
 }
 
 void Roster::printInvalidEmails() const {
-    cout << "Printing invalid emails: " << endl;
-
+    showHeader("Printing invalid emails");
     for (int i = 0; i < 5; i++) {
         std::string emailStr = classRosterArray[i] -> getEmailAddress();
         if ((emailStr.find('@') != std::string::npos) &&
@@ -195,7 +194,7 @@ void Roster::printInvalidEmails() const {
 
 //TODO:
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
-    cout << "Printing students by degree program ";
+    showHeader("Printing students by degree program");
     // swap in switch from above
 
     switch (degreeProgram) {
