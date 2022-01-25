@@ -220,4 +220,3 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
             }
         }
     }
-}
