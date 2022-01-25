@@ -200,7 +200,6 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
         cout << degreeIdx;
         cout << degreeProgram;
         if (degreeProgram == degreeIdx) {
-            //TODO: investigate why this for loop isn't executing
             cout << currentStudent->getId();
             cout << " ";
             cout << "First Name: ";
