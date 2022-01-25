@@ -53,7 +53,7 @@ void Roster::removeStudent(const string& sId) const {
             break;
         }
     }
-    cout << "Student" << sId << "not found.";
+    cout << "Student" << sId << " not found.";
 }
 
 void Roster::parseArray(int rosterIndex) {
