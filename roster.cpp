@@ -105,7 +105,7 @@ void Roster::parseArray(int rosterIndex) {
 //    } else if (degreeProgramString == "SOFTWARE") {
 //        studentDegree = SOFTWARE;
     } else  {
-        studentDegree = SOFTWARE;
+        studentDegree = INIT;
     }
     addStudent(
             rosterIndex, studentId, firstName, lastName,
