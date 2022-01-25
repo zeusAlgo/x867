@@ -186,8 +186,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
         default:
             cout << "NULL"; break;
     }
-    // skip call to printUzr & call corresponding property from
-    // student class
+    
     for (int idx = 0; idx < 5; idx++) {
         Student *currentStudent;
         currentStudent = classRosterArray[idx];
