@@ -202,6 +202,7 @@ void Roster::printInvalidEmails() const {
 //TODO:
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
     cout << "Printing students by degree program ";
+    // swap in switch from above
     printDegreeString(degreeProgram);
     cout << ":" << endl;
 
