@@ -63,7 +63,7 @@ void Roster::removeStudent(const string& sId) const {
         //TODO: remove element from cpp array and shrink array size
         const int idx = indexNum;
         delete classRosterArray[idx];
-        for (int j = idx;  j<=4; j++) {
+        for (int j = idx;  j<=3; j++) {
             classRosterArray[idx] = classRosterArray[idx + 1];
         }
 //        const int idx = indexNum;
