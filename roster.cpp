@@ -176,7 +176,6 @@ void Roster::printInvalidEmails() const {
 
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
     showHeader("Printing students by degree program: ");
-
     switch (degreeProgram) {
         case SECURITY:
             cout << "SECURITY"; break;
