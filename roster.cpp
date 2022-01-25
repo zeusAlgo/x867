@@ -194,7 +194,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
                 classRosterArray[idx] -> print(0);
                 cout << " ";
                 cout << "First Name: ";
-                classRosterArray[idx] -> printUsr(1);
+                cout << currentStudent -> getFirstName();
                 // skip call to printUzr & call corresponding property from
                 // student class
                 cout << " ";
