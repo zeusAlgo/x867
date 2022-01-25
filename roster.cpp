@@ -161,7 +161,7 @@ void Roster::printAll() {
 }
 
 void Roster::printSpace() {
-    cout << " ";
+    cout << "| ";
 }
 
 void Roster::printMeanDaysInCourse(const string& sId) const {
