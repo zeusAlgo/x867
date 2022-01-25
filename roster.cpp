@@ -39,9 +39,7 @@ void Roster::addStudent(int index, string a, string b, string c, string d,
 }
 
 void Roster::removeStudent(const string& sId) const {
-    std::cout << "Searching for student by Id: " << sId;
-
-    std::cout << std::endl;
+    showHeader("Searching for student by Id: ");
     for (int idx = 0; idx < 5; idx++) {
         auto * currentStudent = classRosterArray[idx];
         if (sId == currentStudent->getId()) {
