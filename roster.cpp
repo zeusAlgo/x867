@@ -137,7 +137,9 @@ void Roster::parseArray(int rosterIndex) {
 
 void Roster::printAll() const {
     for (int idx = 0; idx < 5; idx++) {
-        Student currentStudent = reinterpret_cast<Student &&>(classRosterArray[idx]);
+//        Student currentStudent = classRosterArray[idx];
+        auto * currentStudent = new Student;
+        
         if (classRosterArray[idx] -> getId() != "NULL" &&
                 classRosterArray[idx] != classRosterArray[idx -1]) {
             //TODO: assign cra[idx] to var for continual reference lower computation
