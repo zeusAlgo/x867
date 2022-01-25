@@ -183,7 +183,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
             cout << "NETWORK"; break;
         case SOFTWARE:
             cout << "SOFTWARE";
-//            break;
+            break;
         default:
             cout << "NULL"; break;
     }
