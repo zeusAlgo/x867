@@ -11,7 +11,6 @@ Student::Student() {
     this->lastName = "";
     this->emailAddress = "";
     this->age = "";
-
     for (int &idx: this->daysInCourse) {
         idx = 0;
     }
@@ -56,7 +55,6 @@ void Student::printUsr(int val) {
     usrHmap[6] = std::to_string(daysInCourse[1]);
     usrHmap[7] = std::to_string(daysInCourse[2]);
     usrHmap[8] = std::to_string(degreeProgram);
-
     cout << usrHmap[val];
 }
 
