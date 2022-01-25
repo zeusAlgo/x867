@@ -10,8 +10,7 @@ int main() {
         classRoster -> parseArray(idx);
     }
 
-    cout << "Printing all students: " << endl;
-    cout << "=======================" << endl;
+    classRoster -> printingAllStudentsTitle();
     classRoster -> printAll();
     classRoster -> printInvalidEmails();
 
@@ -27,7 +26,8 @@ int main() {
     cout << endl;
     classRoster -> removeStudent("A3");
     cout << endl;
-    cout << "Printing all students: \n";
+
+    classRoster -> printingAllStudentsTitle();
     classRoster -> printAll();
     classRoster -> removeStudent("A3");
 

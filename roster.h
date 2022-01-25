@@ -41,10 +41,13 @@ public:
 
     void printByDegreeProgram(DegreeProgram degreeProgram);
 
+    void printingAllStudentsTitle();
+
 private:
     static void printDegreeString(int dp);
 
     static void printSpace();
 
     static void printDivider();
+
 };

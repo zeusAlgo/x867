@@ -168,6 +168,10 @@ void Roster::printSpace() {
     cout << " ";
 }
 
+void Roster:: printingAllStudentsTitle() {
+    cout << "Printing all students: " << endl;
+    cout << "=======================" << endl;
+}
 void Roster::printMeanDaysInCourse(const string& sId) const {
     for (int idx = 0; idx <= 5; idx++) {
         if (sId == classRosterArray[idx]->getId()) {
