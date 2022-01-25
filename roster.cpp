@@ -39,28 +39,13 @@ void Roster::addStudent(int index, string a, string b, string c, string d,
 }
 
 void Roster::removeStudent(const string& sId) const {
-//    bool indexFound = false;
-//    int indexNum = 0;
-    //TODO: do inlining such as in ex below
     std::cout << "Searching for student by Id: " << sId;
 
-    //refactor | remove below
-//    for (int i = 0; i< 5; i++) {
-//        if (this ->classRosterArray[i] -> getId() == sId) {
-//            indexNum = i;
-//            indexFound = true;
-//            cout << "."; break;
-//        } else {
-//            indexFound = false;
-//            cout << "."; continue;
-//        }
-//    }
     std::cout << std::endl;
     for (int idx = 0; idx < 5; idx++) {
         auto * currentStudent = classRosterArray[idx];
         if (sId == currentStudent->getId()) {
             cout << "Student found. Removing student from roster.";
-//            const int idx = indexNum;
             for (int j = idx;  j<=6; j++) {
                 classRosterArray[idx] = classRosterArray[idx + 1];
             }
