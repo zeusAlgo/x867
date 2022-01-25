@@ -195,18 +195,6 @@ void Roster::printInvalidEmails() const {
 //TODO:
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
     showHeader("Printing students by degree program: ");
-    // swap in switch from above
-
-//    switch (degreeProgram) {
-//        case 0:
-//            cout << "SECURITY"; break;
-//        case 1:
-//            cout << "NETWORK"; break;
-//        case 3:
-//            cout << "SOFTWARE"; break;
-//        default:
-//            cout << "NULL"; break;
-//    }
 
     switch (degreeProgram) {
         case SECURITY:
