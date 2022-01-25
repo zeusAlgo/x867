@@ -44,6 +44,7 @@ void Roster::removeStudent(const string& sId) const {
 
     std::cout << "Searching for student by Id: " << sId;
 
+    //refactor | remove below
     for (int i = 0; i< 5; i++) {
         if (this ->classRosterArray[i] -> getId() == sId) {
             indexNum = i;
@@ -59,24 +60,26 @@ void Roster::removeStudent(const string& sId) const {
 
     if (indexFound) {
         cout << "Student found. Removing student from roster.";
-        const int idx = indexNum;
-        auto* xstudent = new Student();
-
-        xstudent -> setId("Null");
-        cout << ".";
-        xstudent ->setFirstName("");
-        cout << ".";
-        xstudent -> setLastName("");
-        cout << ".";
-        xstudent -> setEmailAddress("");
-        cout << ".";
-        xstudent -> setAge("");
-        cout << ".";
-        xstudent ->setDays(0, 0, 0);
-        cout << ".";
-        xstudent ->setDegreeProgram(INIT);
-        cout << ".";
-        classRosterArray[idx] = xstudent;
+        // remove element from cpp array and shrink array size
+        
+//        const int idx = indexNum;
+//        auto* xstudent = new Student();
+//
+//        xstudent -> setId("Null");
+//        cout << ".";
+//        xstudent ->setFirstName("");
+//        cout << ".";
+//        xstudent -> setLastName("");
+//        cout << ".";
+//        xstudent -> setEmailAddress("");
+//        cout << ".";
+//        xstudent -> setAge("");
+//        cout << ".";
+//        xstudent ->setDays(0, 0, 0);
+//        cout << ".";
+//        xstudent ->setDegreeProgram(INIT);
+//        cout << ".";
+//        classRosterArray[idx] = xstudent;
         cout << "Done";
     } else {
         cout << "Student" << sId << "not found.";

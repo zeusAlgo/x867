@@ -6,9 +6,6 @@ using namespace std;
 int main() {
     auto* classRoster = new Roster();
 
-    for (int idx=0; idx < 5; idx++) {
-        cout << classRoster[idx];
-    }
     for (int idx = 0; idx <= 5; idx++) {
         classRoster -> parseArray(idx);
     }
