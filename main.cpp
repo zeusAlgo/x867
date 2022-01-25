@@ -21,7 +21,7 @@ int main() {
     }
 
     cout << endl;
-    classRoster -> printByDegreeProgram(SECURITY);
+    classRoster -> printByDegreeProgram(SOFTWARE);
     cout << endl;
     classRoster -> removeStudent("A3");
     cout << endl;
