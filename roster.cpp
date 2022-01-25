@@ -190,6 +190,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
     for (int idx = 0; idx < 5; idx++) {
         Student *currentStudent;
         currentStudent = classRosterArray[idx];
+        cout << currentStudent->getId();
         if (degreeProgram == currentStudent->getDegreeProgram()) {
             //TODO: investigate why this for loop isn't executing
                 cout << currentStudent->getId();
