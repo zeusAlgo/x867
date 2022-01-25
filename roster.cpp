@@ -65,7 +65,9 @@ void Roster::removeStudent(const string& sId) const {
 //        delete classRosterArray[idx];
         for (int j = idx;  j<=6; j++) {
             classRosterArray[idx] = classRosterArray[idx + 1];
-            classRosterArray[idx+1] = classRosterArray[idx+2];
+        }
+        for (int j = idx; j <= 6; j++) {
+            classRosterArray[idx + 1] = classRosterArray[idx + 2];
         }
         cout << "Done";
     } else {
