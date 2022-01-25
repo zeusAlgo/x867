@@ -186,7 +186,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
         default:
             cout << "NULL"; break;
     }
-    cout << "" << endl;
+    cout << "hey" << endl;
     for (int idx = 0; idx < 5; idx++) {
         auto * currentStudent = classRosterArray[idx];
         if (currentStudent -> getDegreeProgram() == degreeProgram) {
