@@ -67,9 +67,9 @@ void Roster::removeStudent(const string& sId) const {
             cout << "Done";
             break;
         }
-        cout << "Student" << sId << "not found.";
+      
 
-    }
+    }  cout << "Student" << sId << "not found.";
     cout << endl;
 }
 
