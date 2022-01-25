@@ -18,6 +18,8 @@ void Roster::printDegreeString(int idx) {
             cout << "NETWORK"; break;
         case 2:
             cout << "SOFTWARE"; break;
+        case 3:
+            cout << "SOFTWARE"; break;
         default:
             cout << "NULL"; break;
     }
