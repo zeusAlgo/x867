@@ -18,7 +18,7 @@ const string studentData[5] = {
 //usrMap[0] =
 
 //usrMap.insert(make_pair(0, {"A1","John","Smith","John1989@gmail.com","20","30","35","40","SECURITY"};));
-class Roster {
+class Roster : public error_code {
 public:
     Roster();
 
@@ -29,15 +29,15 @@ public:
     void addStudent(int index, string a, string b, string c, string d,
                     string e, int f, int g, int h, DegreeProgram x);
 
-    void removeStudent(string sId);
+    void removeStudent(const string& sId) const;
 
     void parseArray(int rosterIndex);
 
-    void printAll();
+    void printAll() const;
 
     void printMeanDaysInCourse(const string& sId) const;
 
-    void printInvalidEmails();
+    void printInvalidEmails() const;
 
     void printByDegreeProgram(DegreeProgram degreeProgram) const;
 

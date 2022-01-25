@@ -38,7 +38,7 @@ void Roster::addStudent(int index, string a, string b, string c, string d,
     classRosterArray[idx] = newStudent;
 }
 
-void Roster::removeStudent(string sId) {
+void Roster::removeStudent(const string& sId) const {
     bool indexFound = false;
     int indexNum = 0;
 
@@ -144,7 +144,7 @@ void Roster::parseArray(int rosterIndex) {
             );
 }
 
-void Roster::printAll() {
+void Roster::printAll() const {
     for (int idx = 0; idx < 5; idx++) {
         if (classRosterArray[idx] -> getId() != "NUL") {
             cout << classRosterArray[idx]->getId(); printDivider();
@@ -189,7 +189,7 @@ void Roster::printMeanDaysInCourse(const string& sId) const {
     }
 }
 
-void Roster::printInvalidEmails() {
+void Roster::printInvalidEmails() const {
     cout << "Printing invalid emails: " << endl;
 
     for (int i = 0; i < 5; i++) {
