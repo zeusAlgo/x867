@@ -44,7 +44,7 @@ public:
 private:
     static void printDegreeString(int dp);
 
-    void printSpace();
+    static void printSpace();
 
-    void printDivider();
+    static void printDivider();
 };

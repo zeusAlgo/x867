@@ -144,11 +144,11 @@ void Roster::parseArray(int rosterIndex) {
 void Roster::printAll() {
     for (int idx = 0; idx < 5; idx++) {
         if (classRosterArray[idx] -> getId() != "NUL") {
-            cout << classRosterArray[idx]->getId(); printSpace();
-            cout << classRosterArray[idx]->getFirstName(); printDivider();
-            cout << classRosterArray[idx]->getLastName(); printSpace();
-            cout << classRosterArray[idx]->getEmailAddress(); printSpace();
-            cout << classRosterArray[idx]->getAge(); printSpace();
+            cout << classRosterArray[idx]->getId(); printDivider();
+            cout << classRosterArray[idx]->getFirstName(); printSpace();
+            cout << classRosterArray[idx]->getLastName(); printDivider();
+            cout << classRosterArray[idx]->getEmailAddress(); printDivider();
+            cout << classRosterArray[idx]->getAge(); printDivider();
             cout << classRosterArray[idx]->getDays(0);cout << ", ";
             cout << classRosterArray[idx]->getDays(1);cout << ", ";
             cout << classRosterArray[idx]->getDays(2) ;cout << " \n";
