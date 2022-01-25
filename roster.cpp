@@ -138,7 +138,9 @@ void Roster::parseArray(int rosterIndex) {
 
 void Roster::printAll() const {
     for (int idx = 0; idx < 5; idx++) {
-        if (classRosterArray[idx] -> getId() != "NUL") {
+        // adding check to verify not printing duplicate
+        if (classRosterArray[idx] -> getId() != "NUL" &&
+                classRosterArray[idx] != classRosterArray[idx -1]) {
             cout << classRosterArray[idx]->getId(); printDivider();
             cout << classRosterArray[idx]->getFirstName(); printSpace();
             cout << classRosterArray[idx]->getLastName(); printDivider();
