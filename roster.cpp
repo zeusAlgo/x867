@@ -205,7 +205,7 @@ void Roster::printInvalidEmails() {
 }
 
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
-    cout << "Printing students by degree program";
+    cout << "Printing students by degree program ";
     printDegreeString(degreeProgram);
     cout << ":" << endl;
 
