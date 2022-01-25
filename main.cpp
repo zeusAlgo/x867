@@ -10,11 +10,11 @@ int main() {
         classRoster -> parseArray(idx);
     }
 
-    Roster::showHeader();
+    Roster::showHeader("Printing all students: ");
     classRoster -> printAll();
     classRoster -> printInvalidEmails();
 
-    cout << "Printing mean days in course for each student: " << endl;
+    Roster::showHeader( "Printing mean days in course for each student: ");
 
     for (int idx = 0; idx < 5; idx++) {
         classRoster ->printMeanDaysInCourse(
@@ -27,7 +27,7 @@ int main() {
     classRoster -> removeStudent("A3");
     cout << endl;
 
-    Roster::showHeader();
+    Roster::showHeader("Printing all students: ");
     classRoster -> printAll();
     classRoster -> removeStudent("A3");
 

@@ -43,6 +43,8 @@ public:
 
     static void showHeader();
 
+    static void showHeader(const string& headerText);
+
 private:
     static void printDegreeString(int dp);
 

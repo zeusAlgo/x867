@@ -157,8 +157,8 @@ void Roster::printSpace() {
     cout << " ";
 }
 
-void Roster:: showHeader() {
-    cout << "Printing all students: " << endl;
+void Roster:: showHeader(const string& headerText) {
+    cout << headerText << endl;
     cout << "=======================" << endl;
 }
 
