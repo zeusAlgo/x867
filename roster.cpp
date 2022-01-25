@@ -141,7 +141,7 @@ void Roster::printSpace() {
 
 void Roster:: showHeader(const string& headerText) {
     cout << headerText << endl;
-    cout << "======================= \n";
+    cout << "=======================" << endl;
 }
 
 void Roster::printMeanDaysInCourse(const string& sId) const {
