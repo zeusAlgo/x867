@@ -206,8 +206,6 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
         default:
             cout << "NULL"; break;
     }
-    printDegreeString(degreeProgram);
-    cout << ":" << endl;
 
     for (int i = 0; i < 5; i++) {
         if (classRosterArray[i] -> getDegreeProgram() == degreeProgram) {
