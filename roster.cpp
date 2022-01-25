@@ -145,7 +145,7 @@ void Roster::printAll() {
     for (int idx = 0; idx < 5; idx++) {
         if (classRosterArray[idx] -> getId() != "NUL") {
             cout << classRosterArray[idx]->getId(); printSpace();
-            cout << classRosterArray[idx]->getFirstName(); printSpace();
+            cout << classRosterArray[idx]->getFirstName();
             cout << classRosterArray[idx]->getLastName(); printSpace();
             cout << classRosterArray[idx]->getEmailAddress(); printSpace();
             cout << classRosterArray[idx]->getAge(); printSpace();
