@@ -140,7 +140,7 @@ void Roster::printAll() const {
         auto * currentStudent = classRosterArray[idx];
 
         if (currentStudent -> getId() != "NULL" &&
-                currentStudent != classRosterArray[idx -1]) {
+                currentStudent != classRosterArray[idx-1]) {
             cout << currentStudent->getId(); printDivider();
             cout << currentStudent->getLastName(); printDivider();
             cout << currentStudent->getEmailAddress(); printDivider();
