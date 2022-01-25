@@ -137,13 +137,11 @@ void Roster::parseArray(int rosterIndex) {
 
 void Roster::printAll() const {
     for (int idx = 0; idx < 5; idx++) {
-        auto * currentStudent = new Student;
-        currentStudent = classRosterArray[idx];
+        auto * currentStudent = classRosterArray[idx];
+//        currentStudent = classRosterArray[idx];
 
         if (classRosterArray[idx] -> getId() != "NULL" &&
                 classRosterArray[idx] != classRosterArray[idx -1]) {
-            //TODO: assign cra[idx] to var for continual reference lower computation
-            //currStudent = cra[idx]
             cout << currentStudent->getId(); printDivider();
             cout << currentStudent->getLastName(); printDivider();
             cout << currentStudent->getEmailAddress(); printDivider();
