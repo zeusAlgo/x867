@@ -102,8 +102,6 @@ void Roster::parseArray(int rosterIndex) {
         studentDegree = SECURITY;
     } else if (degreeProgramString == "NETWORK") {
         studentDegree = NETWORK;
-//    } else if (degreeProgramString == "SOFTWARE") {
-//        studentDegree = SOFTWARE;
     } else  {
         studentDegree = INIT;
     }
