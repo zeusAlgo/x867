@@ -16,7 +16,7 @@ int main() {
 
 //    cout << "Printing mean days in course for each student: " << endl;
     Roster::showHeader(
-            "Printing mean days in course for each student: ");
+            "Printing mean days in course: ");
     for (int idx = 0; idx < 5; idx++) {
         classRoster ->printMeanDaysInCourse(
                 classRoster -> classRosterArray[idx] -> getId());
