@@ -187,34 +187,35 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
             cout << "NULL"; break;
     }
     cout << "" << endl;
-    for (int i = 0; i < 5; i++) {
-        if (classRosterArray[i] -> getDegreeProgram() == degreeProgram) {
-            if (classRosterArray[i] -> getId() != "NULL") {
-                classRosterArray[i] -> print(0);
+    for (int idx = 0; idx < 5; idx++) {
+
+        if (classRosterArray[idx] -> getDegreeProgram() == degreeProgram) {
+            if (classRosterArray[idx] -> getId() != "NULL") {
+                classRosterArray[idx] -> print(0);
                 cout << " ";
                 cout << "First Name: ";
-//                classRosterArray[i] -> print(1);
-                classRosterArray[i] -> printUsr(1);
+//                classRosterArray[idx] -> print(1);
+                classRosterArray[idx] -> printUsr(1);
                 // skip call to printUzr & call corresponding property from
                 // student class
                 cout << " ";
                 cout << "Last Name:";
-                classRosterArray[i] -> printUsr(2);
+                classRosterArray[idx] -> printUsr(2);
                 cout << " ";
                 cout << "Age: ";
-                classRosterArray[i] -> printUsr(4);
+                classRosterArray[idx] -> printUsr(4);
                 cout << "";
                 cout << "Days in Course {";
-                classRosterArray[i] -> printUsr(5);
+                classRosterArray[idx] -> printUsr(5);
                 cout << " ";
-                classRosterArray[i] -> printUsr(6);
+                classRosterArray[idx] -> printUsr(6);
                 cout << " ";
-                classRosterArray[i] -> printUsr(7);
+                classRosterArray[idx] -> printUsr(7);
                 cout << "}";
                 cout << "Degree Program: ";
 
                 printDegreeString(
-                        classRosterArray[i] -> getDegreeProgram());
+                        classRosterArray[idx] -> getDegreeProgram());
                 cout << endl;
             }
         }
