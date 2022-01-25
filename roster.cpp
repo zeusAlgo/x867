@@ -158,7 +158,7 @@ void Roster::printMeanDaysInCourse(const string& sId) const {
 }
 
 void Roster::printInvalidEmails() const {
-    showHeader("Printing invalid emails");
+    showHeader("Printing invalid emails:");
     for (int i = 0; i < 5; i++) {
         std::string emailStr = classRosterArray[i] -> getEmailAddress();
         if ((emailStr.find('@') != std::string::npos) &&
