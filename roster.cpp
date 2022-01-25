@@ -16,7 +16,7 @@ void Roster::printDegreeString(int idx) {
             cout << "SECURITY"; break;
         case 1:
             cout << "NETWORK"; break;
-        case 3:
+        case 2:
             cout << "SOFTWARE"; break;
         default:
             cout << "NULL"; break;
