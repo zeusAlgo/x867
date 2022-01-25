@@ -141,6 +141,7 @@ void Roster::printAll() const {
         // adding check to verify not printing duplicate
         if (classRosterArray[idx] -> getId() != "NULL" &&
                 classRosterArray[idx] != classRosterArray[idx -1]) {
+            //TODO: assign cra[idx] to var for continual reference lower computation
             cout << classRosterArray[idx]->getId(); printDivider();
             cout << classRosterArray[idx]->getFirstName(); printSpace();
             cout << classRosterArray[idx]->getLastName(); printDivider();
