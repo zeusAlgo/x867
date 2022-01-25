@@ -145,16 +145,14 @@ void Roster::printAll() const {
             //TODO: assign cra[idx] to var for continual reference lower computation
             //currStudent = cra[idx]
             cout << currentStudent->getId(); printDivider();
-            cout << classRosterArray[idx]->getId(); printDivider();
-            cout << classRosterArray[idx]->getFirstName(); printSpace();
-            cout << classRosterArray[idx]->getLastName(); printDivider();
-            cout << classRosterArray[idx]->getEmailAddress(); printDivider();
-            cout << classRosterArray[idx]->getAge(); printDivider();
-            cout << classRosterArray[idx]->getDays(0);cout << ", ";
-            cout << classRosterArray[idx]->getDays(1);cout << ", ";
-            cout << classRosterArray[idx]->getDays(2) ;cout << " \n";
+            cout << currentStudent->getLastName(); printDivider();
+            cout << currentStudent->getEmailAddress(); printDivider();
+            cout << currentStudent->getAge(); printDivider();
+            cout << currentStudent->getDays(0);cout << ", ";
+            cout << currentStudent->getDays(1);cout << ", ";
+            cout << currentStudent->getDays(2) ;cout << " \n";
             cout << "Degree Program: ";
-            printDegreeString(classRosterArray[idx] -> getDegreeProgram());
+            printDegreeString(currentStudent->getDegreeProgram());
             cout << "\n-------------------------" << endl;
         }
     }
