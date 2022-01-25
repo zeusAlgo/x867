@@ -192,7 +192,6 @@ void Roster::printInvalidEmails() const {
     cout << endl;
 }
 
-//TODO:
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
     showHeader("Printing students by degree program: ");
 
