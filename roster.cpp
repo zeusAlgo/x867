@@ -191,7 +191,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
 
     for (int idx = 0; idx < 5; idx++) {
         Student * currentStudent = classRosterArray[idx];
-        cout << "Here \n";
+        cout << "\n";
         int degreeIdx;
         degreeIdx = currentStudent->getDegreeProgram();
         if (degreeIdx == 3) {
