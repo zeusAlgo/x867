@@ -152,7 +152,7 @@ void Roster::printAll() {
             cout << classRosterArray[idx]->getDays(0);cout << ", ";
             cout << classRosterArray[idx]->getDays(1);cout << ", ";
             cout << classRosterArray[idx]->getDays(2) ;cout << " \n";
-            cout << "Degree Program:";
+            cout << "Degree Program: ";
             printDegreeString(classRosterArray[idx] -> getDegreeProgram());
             cout << "\n-------------------------" << endl;
         }
