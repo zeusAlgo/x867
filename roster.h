@@ -39,7 +39,7 @@ public:
 
     void printInvalidEmails();
 
-    void printByDegreeProgram(DegreeProgram degreeProgram);
+    void printByDegreeProgram(DegreeProgram degreeProgram) const;
 
     static void showHeader();
 

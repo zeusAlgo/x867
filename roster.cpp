@@ -133,8 +133,8 @@ void Roster::parseArray(int rosterIndex) {
     } else if (degreeProgramString == "NETWORK") {
         studentDegree = NETWORK;
 
-    } else if (degreeProgramString == "SOFTWARE") {
-        studentDegree = SOFTWARE;
+//    } else if (degreeProgramString == "SOFTWARE") {
+//        studentDegree = SOFTWARE;
     } else  {
         studentDegree = INIT;
     }
@@ -207,7 +207,7 @@ void Roster::printInvalidEmails() {
     cout << endl;
 }
 
-void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
+void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
     cout << "Printing students by degree program ";
     printDegreeString(degreeProgram);
     cout << ":" << endl;
