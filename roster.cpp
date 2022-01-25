@@ -186,37 +186,36 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
         default:
             cout << "NULL"; break;
     }
-
+    // skip call to printUzr & call corresponding property from
+    // student class
     for (int idx = 0; idx < 5; idx++) {
         Student *currentStudent;
         currentStudent = classRosterArray[idx];
         if (degreeProgram == currentStudent->getDegreeProgram()) {
             //TODO: investigate why this for loop isn't executing
             cout << currentStudent->getId();
-                cout << " ";
-                cout << "First Name: ";
-                cout << currentStudent -> getFirstName();
-                // skip call to printUzr & call corresponding property from
-                // student class
-                cout << " ";
-                cout << "Last Name:";
-                classRosterArray[idx] -> printUsr(2);
-                cout << " ";
-                cout << "Age: ";
-                classRosterArray[idx] -> printUsr(4);
-                cout << "";
-                cout << "Days in Course {";
-                classRosterArray[idx] -> printUsr(5);
-                cout << " ";
-                classRosterArray[idx] -> printUsr(6);
-                cout << " ";
-                classRosterArray[idx] -> printUsr(7);
-                cout << "}";
-                cout << "Degree Program: ";
+            cout << " ";
+            cout << "First Name: ";
+            cout << currentStudent -> getFirstName();
+            cout << " ";
+            cout << "Last Name:";
+            classRosterArray[idx] -> printUsr(2);
+            cout << " ";
+            cout << "Age: ";
+            classRosterArray[idx] -> printUsr(4);
+            cout << "";
+            cout << "Days in Course {";
+            classRosterArray[idx] -> printUsr(5);
+            cout << " ";
+            classRosterArray[idx] -> printUsr(6);
+            cout << " ";
+            classRosterArray[idx] -> printUsr(7);
+            cout << "}";
+            cout << "Degree Program: ";
 
-                printDegreeString(
+            printDegreeString(
                         classRosterArray[idx] -> getDegreeProgram());
-                cout << endl;
+            cout << endl;
         }
     }
 }
