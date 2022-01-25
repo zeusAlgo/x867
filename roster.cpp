@@ -188,9 +188,9 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
     }
     cout << "" << endl;
     for (int idx = 0; idx < 5; idx++) {
-
-        if (classRosterArray[idx] -> getDegreeProgram() == degreeProgram) {
-            if (classRosterArray[idx] -> getId() != "NULL") {
+        auto * currentStudent = classRosterArray[idx];
+        if (currentStudent -> getDegreeProgram() == degreeProgram) {
+            if (currentStudent -> getId() != "NULL") {
                 classRosterArray[idx] -> print(0);
                 cout << " ";
                 cout << "First Name: ";
