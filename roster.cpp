@@ -139,6 +139,7 @@ void Roster::printAll() const {
     for (int idx = 0; idx < 5; idx++) {
 //        Student currentStudent = classRosterArray[idx];
         auto * currentStudent = new Student;
+        currentStudent = classRosterArray[idx];
         
         if (classRosterArray[idx] -> getId() != "NULL" &&
                 classRosterArray[idx] != classRosterArray[idx -1]) {
