@@ -200,6 +200,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
         cout << degreeIdx;
         cout << degreeProgram;
         if (degreeProgram == degreeIdx) {
+            cout << "here";
             cout << currentStudent->getId();
             cout << " ";
             cout << "First Name: ";
