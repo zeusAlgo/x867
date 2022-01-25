@@ -160,11 +160,11 @@ void Roster::printAll() {
     cout << endl;
 }
 
-void Roster::printSpace() {
-    cout << " ";
-}
 void Roster::printDivider() {
     cout << " | ";
+}
+void Roster::printSpace() {
+    cout << " ";
 }
 
 void Roster::printMeanDaysInCourse(const string& sId) const {
