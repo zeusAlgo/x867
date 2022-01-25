@@ -41,7 +41,7 @@ void Roster::addStudent(int index, string a, string b, string c, string d,
 void Roster::removeStudent(const string& sId) const {
     bool indexFound = false;
     int indexNum = 0;
-
+    //TODO: do inlining such as in ex below
     std::cout << "Searching for student by Id: " << sId;
 
     //refactor | remove below
