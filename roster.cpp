@@ -138,10 +138,9 @@ void Roster::parseArray(int rosterIndex) {
 void Roster::printAll() const {
     for (int idx = 0; idx < 5; idx++) {
         auto * currentStudent = classRosterArray[idx];
-//        currentStudent = classRosterArray[idx];
 
-        if (classRosterArray[idx] -> getId() != "NULL" &&
-                classRosterArray[idx] != classRosterArray[idx -1]) {
+        if (currentStudent -> getId() != "NULL" &&
+                currentStudent != classRosterArray[idx -1]) {
             cout << currentStudent->getId(); printDivider();
             cout << currentStudent->getLastName(); printDivider();
             cout << currentStudent->getEmailAddress(); printDivider();
