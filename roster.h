@@ -41,7 +41,7 @@ public:
 
     void printByDegreeProgram(DegreeProgram degreeProgram);
 
-    void printingAllStudentsTitle();
+    static void showHeader();
 
 private:
     static void printDegreeString(int dp);
