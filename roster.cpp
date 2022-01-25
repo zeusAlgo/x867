@@ -147,7 +147,7 @@ void Roster::printAll() const {
             printDegreeString(currentStudent->getDegreeProgram());
             cout << "\n-------------------------" << endl;
         }
-    } cout << "\n" << endl;
+    } cout << "" << endl;
 }
 
 void Roster::printDivider() {
