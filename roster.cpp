@@ -43,7 +43,7 @@ void Roster::removeStudent(const string& sId) const {
     for (int idx = 0; idx < 5; idx++) {
         auto * currentStudent = classRosterArray[idx];
         if (sId == currentStudent->getId()) {
-            cout << "Found student.";
+            cout << "Found student." << endl;
             for (int j = idx;  j<=6; j++) {
                 classRosterArray[idx] = classRosterArray[idx + 1];
             }
