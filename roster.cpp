@@ -66,27 +66,6 @@ void Roster::removeStudent(const string& sId) const {
         for (int j = idx;  j<=6; j++) {
             classRosterArray[idx] = classRosterArray[idx + 1];
         }
-
-//        const int idx = indexNum;
-//        auto* xstudent = new Student();
-//        for (int i = 2; i < 8; ++i)
-//        array[i] = array[i + 1]; // copy next element left
-//
-//        xstudent -> setId("Null");
-//        cout << ".";
-//        xstudent ->setFirstName("");
-//        cout << ".";
-//        xstudent -> setLastName("");
-//        cout << ".";
-//        xstudent -> setEmailAddress("");
-//        cout << ".";
-//        xstudent -> setAge("");
-//        cout << ".";
-//        xstudent ->setDays(0, 0, 0);
-//        cout << ".";
-//        xstudent ->setDegreeProgram(INIT);
-//        cout << ".";
-//        classRosterArray[idx] = xstudent;
         cout << "Done";
     } else {
         cout << "Student" << sId << "not found.";
