@@ -142,6 +142,7 @@ void Roster::printAll() const {
         if (currentStudent -> getId() != "NULL" &&
                 currentStudent != classRosterArray[idx-1]) {
             cout << currentStudent->getId(); printDivider();
+            cout << currentStudent->getFirstName(); printSpace();
             cout << currentStudent->getLastName(); printDivider();
             cout << currentStudent->getEmailAddress(); printDivider();
             cout << currentStudent->getAge(); printDivider();
