@@ -47,7 +47,7 @@ void Roster::removeStudent(const string& sId) const {
             for (int j = idx;  j<=6; j++) {
                 classRosterArray[idx] = classRosterArray[idx + 1];
             }
-            cout << "Successfully removed student.";
+            cout << "Successfully removed student. \n";
             return;
         }
     }
