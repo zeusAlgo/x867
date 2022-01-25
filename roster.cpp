@@ -172,6 +172,7 @@ void Roster:: showHeader() {
     cout << "Printing all students: " << endl;
     cout << "=======================" << endl;
 }
+
 void Roster::printMeanDaysInCourse(const string& sId) const {
     for (int idx = 0; idx <= 5; idx++) {
         if (sId == classRosterArray[idx]->getId()) {
@@ -210,7 +211,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
 
     for (int i = 0; i < 5; i++) {
         if (classRosterArray[i] -> getDegreeProgram() == degreeProgram) {
-            if (classRosterArray[i] -> getId() != "NUL") {
+            if (classRosterArray[i] -> getId() != "NULL") {
                 classRosterArray[i] -> print(0);
                 cout << " ";
                 cout << "First Name: ";

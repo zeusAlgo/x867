@@ -27,7 +27,7 @@ int main() {
     classRoster -> removeStudent("A3");
     cout << endl;
 
-    classRoster->showHeader();
+    Roster::showHeader();
     classRoster -> printAll();
     classRoster -> removeStudent("A3");
 
