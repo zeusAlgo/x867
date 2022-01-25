@@ -13,13 +13,13 @@ Roster::~Roster() { delete[] classRosterArray;};
 void Roster::printDegreeString(int idx) {
     switch (idx) {
         case 0:
-            cout << "SECURITY"; break;
+            cout << "SECURITY";
         case 1:
-            cout << "NETWORK"; break;
+            cout << "NETWORK";
         case 3:
-            cout << "SOFTWARE"; break;
+            cout << "SOFTWARE";
         default:
-            cout << "NULL"; break;
+            cout << "NULL";
     }
 }
 
