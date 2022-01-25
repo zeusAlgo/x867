@@ -26,9 +26,7 @@ int main() {
     cout << endl;
     classRoster -> removeStudent("A3");
     cout << endl;
-    for (int idx = 0; idx <= 5; idx++) {
-        classRoster -> parseArray(idx);
-    }
+
     Roster::showHeader();
     classRoster -> printAll();
     classRoster -> removeStudent("A3");
