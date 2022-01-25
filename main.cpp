@@ -15,7 +15,7 @@ int main() {
     classRoster -> printInvalidEmails();
 
 //    cout << "Printing mean days in course for each student: " << endl;
-    
+    Roster::showHeader("Printing");
     for (int idx = 0; idx < 5; idx++) {
         classRoster ->printMeanDaysInCourse(
                 classRoster -> classRosterArray[idx] -> getId());
