@@ -39,6 +39,8 @@ public:
 
     void printByDegreeProgram(DegreeProgram degreeProgram) const;
 
+    void printByDegreeProgram(DegreeProgram degreeProgram);
+
 private:
     static void printDegreeString(int dp);
 
