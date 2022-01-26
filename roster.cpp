@@ -121,7 +121,7 @@ void Roster::printAll() const {
         if (currentStudent -> getId() != "NULL" &&
                 currentStudent != classRosterArray[idx-1]) {
             //perhaps ring lsStudent()
-            listStudent(currentStudent)
+            listStudent(currentStudent);
             cout << currentStudent->getId(); printDivider();
             cout << currentStudent->getFirstName(); printSpace();
             cout << currentStudent->getLastName(); printDivider();
