@@ -185,8 +185,8 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     degreeFrequencyMap[0] = 2;
     for (int idx = 0; idx < degreeFrequencyMap[degreeProgram]; idx++) {
         auto *currentStudent = classRosterArray[idx];
-        switch (currentStudent->getDegreeProgram()) {
-            case 3:
+        switch (degreeProgram) {
+            case 2:
                 cout << "SOFTWARE";
                 cout << currentStudent->getId();
                 cout << " ";
