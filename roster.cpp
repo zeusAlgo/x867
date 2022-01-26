@@ -182,7 +182,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     // put in hashmap. call for switch statement
     unordered_map<int, int> degreeFrequencyMap;
     for (int idx = 0; idx < 5; idx++) {
-        
+
     }
     showHeader("Printing students by degree program: ");
     for (int idx = 0; idx < 5; idx++) {
