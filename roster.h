@@ -44,5 +44,5 @@ private:
 
     static void printDivider();
 
-    void listStudent(Student *currentStudent) const;
+    static void listStudent(Student *currentStudent) ;
 };

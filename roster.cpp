@@ -186,7 +186,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     }
 }
 
-void Roster::listStudent(Student *currentStudent) const {
+void Roster::listStudent(Student *currentStudent) {
     cout << currentStudent->getId(); printDivider();
     cout << currentStudent->getFirstName(); printSpace();
     cout << currentStudent->getLastName(); printDivider();
