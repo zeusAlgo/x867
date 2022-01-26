@@ -108,8 +108,9 @@ void Roster::parseArray(int rosterIndex) {
         studentDegree = INIT;
     }
     addStudent(
-            rosterIndex, studentId, firstName, lastName,
-            email, age, days0, days1, days2, studentDegree
+            rosterIndex, studentId, firstName,
+            lastName,email, age, days0,
+            days1, days2, studentDegree
             );
 }
 
