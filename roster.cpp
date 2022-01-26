@@ -183,8 +183,8 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     showHeader("Printing students by degree program: ");
     unordered_map<int, int> degreeFrequencyMap;
     degreeFrequencyMap[2] = 2;
-    degreeFrequencyMap[1] = 2;
-    degreeFrequencyMap[0] = 1;
+    degreeFrequencyMap[1] = 1;
+    degreeFrequencyMap[0] = 2;
     for (int idx = 0; idx < degreeFrequencyMap[degreeProgram]; idx++) {
         // if value in hmap += 1 val
         // else insert into hmap val = 1
