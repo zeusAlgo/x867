@@ -176,7 +176,7 @@ void Roster::printInvalidEmails() const {
     cout << endl;
 }
 
-void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
+void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
     showHeader("Printing students by degree program: ");
     switch (degreeProgram) {
         case SECURITY:
@@ -187,8 +187,9 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
             cout << "SOFTWARE";
 //            break;
             for (int idx = 0; idx < 5; idx++) {
+                auto * currentStudent = classRosterArray[idx];
                 cout << "here";
-                cout << classRosterArray[idx]->getId();
+                cout << currentStudent->getId();
                 cout << " ";
                 cout << "First Name: ";
                 cout << classRosterArray[idx]-> getFirstName();
