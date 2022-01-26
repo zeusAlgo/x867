@@ -241,7 +241,8 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
 ////        cout << degreeProgram;
 ////        if
 //////                (
-//////                degreeProgram == classRosterArray[idx]->getDegreeProgram()) |
+//////                degreeProgram ==
+///                     classRosterArray[idx]->getDegreeProgram()) |
 ////            (classRosterArray[idx]->getDegreeProgram() == 3) {
 //////            && (degreeProgram == 2)){
 ////            cout << "here";

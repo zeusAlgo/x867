@@ -51,7 +51,8 @@ void Student::printUsr(int val) {
     unordered_map<int, string> usrHmap;
     usrHmap[0] = studentId; usrHmap[1] = firstName;
     usrHmap[2] = lastName; usrHmap[3] = emailAddress;
-    usrHmap[4] = age; usrHmap[5] = std::to_string(daysInCourse[0]);
+    usrHmap[4] = age;
+    usrHmap[5] = std::to_string(daysInCourse[0]);
     usrHmap[6] = std::to_string(daysInCourse[1]);
     usrHmap[7] = std::to_string(daysInCourse[2]);
     usrHmap[8] = std::to_string(degreeProgram);
