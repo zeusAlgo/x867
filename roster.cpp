@@ -181,10 +181,14 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     // loop through and get number of students in each program.
     // put in hashmap. call for switch statement
     unordered_map<int, int> degreeFrequencyMap;
+    degreeFrequencyMap[2] = 2;
+    degreeFrequencyMap[1] = 2;
+    degreeFrequencyMap[0] = 1;
     for (int idx = 0; idx < 5; idx++) {
         // if value in hmap += 1 val
         // else insert into hmap val = 1
         auto *currentStudent = classRosterArray[idx];
+
 //        if (currentStudent->getDegreeProgram())
     }
     showHeader("Printing students by degree program: ");
@@ -217,6 +221,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         cout << currentStudent->getFirstName();
         cout << " ";
 //TODO: FINISH AVOIDING MALLOC ERR
+// [$K083]
     }
 
 //    switch (degreeProgram) {
