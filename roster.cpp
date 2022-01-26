@@ -178,11 +178,15 @@ void Roster::printInvalidEmails() const {
 }
 
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
+    // loop through and get number of students in each program.
+    // put in hashmap. call for switch statement
+    
     showHeader("Printing students by degree program: ");
     for (int idx = 0; idx < 5; idx++) {
         auto *currentStudent = classRosterArray[idx];
-        switch (degreeProgram) {
-            case 2:
+//        if (degreeProgram == )
+        switch (currentStudent->getDegreeProgram()) {
+            case 3:
                 cout << "SOFTWARE";
                 cout << "here";
                 cout << currentStudent->getId();
@@ -192,11 +196,11 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 cout << " ";
                 cout << "Last Name:";
                 break;
-            case SECURITY:
+            case 2:
                 break;
-            case NETWORK:
+            case 1:
                 break;
-            case INIT:
+            case 0:
                 break;
         }
         if (degreeProgram == 2) {cout << "SOFTWARE";}
