@@ -185,6 +185,28 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
             cout << "NETWORK"; break;
         case SOFTWARE:
             cout << "SOFTWARE"; break;
+            for (int idx = 0; idx < 5; idx++) {
+                cout << "here";
+                cout << classRosterArray[idx]->getId();
+                cout << " ";
+                cout << "First Name: ";
+                cout << classRosterArray[idx]-> getFirstName();
+                cout << " ";
+                cout << "Last Name:";
+                cout << " ";
+                cout << "Age: ";
+                classRosterArray[idx] -> printUsr(4);
+                cout << "";
+                cout << "Days in Course {";
+                classRosterArray[idx] -> printUsr(5);
+                cout << " ";
+                classRosterArray[idx] -> printUsr(6);
+                cout << " ";
+                classRosterArray[idx] -> printUsr(7);
+                cout << "}";
+                cout << "Degree Program: ";
+            }
+
         default:
             cout << "NULL"; break;
     }
@@ -203,7 +225,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
 //        }
 //        cout << degreeIdx;
 //        cout << degreeProgram;
-        if 
+        if
 //                (
 //                degreeProgram == classRosterArray[idx]->getDegreeProgram()) |
             (classRosterArray[idx]->getDegreeProgram() == 3) {
