@@ -180,8 +180,8 @@ void Roster::printInvalidEmails() const {
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     showHeader("Printing students by degree program: ");
     for (int idx = 0; idx < 5; idx++) {
-        if (degreeProgram == 2) {cout << "SOFTWARE";}
         auto *currentStudent = classRosterArray[idx];
+        if (degreeProgram == 2) {cout << "SOFTWARE";}
         cout << "here";
         cout << currentStudent->getId();
         cout << currentStudent->getDegreeProgram();
