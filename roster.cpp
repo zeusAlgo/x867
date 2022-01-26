@@ -184,6 +184,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         cout << "here";
         cout << currentStudent->getId();
         cout << currentStudent->getDegreeProgram();
+        cout << degreeProgram;
         cout << currentStudent->getFirstName();
         cout << " ";
 
