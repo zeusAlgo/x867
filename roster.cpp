@@ -208,7 +208,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 cout << "}";
                 cout << "Degree Program: ";
             }
-
+            break;
         default:
             cout << "NULL"; break;
     }
