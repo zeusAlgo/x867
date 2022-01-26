@@ -23,10 +23,6 @@ int main() {
 
     cout << endl;
     classRoster -> printByDegreeProgram(SOFTWARE);
-
-    classRoster -> printByDegreeProgram(SECURITY);
-
-    classRoster -> printByDegreeProgram(NETWORK);
     cout << endl;
     classRoster -> removeStudent("A3");
     cout << endl;
