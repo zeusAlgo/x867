@@ -120,7 +120,6 @@ void Roster::printAll() const {
 
         if (currentStudent -> getId() != "NULL" &&
                 currentStudent != classRosterArray[idx-1]) {
-            //perhaps ring lsStudent()
             listStudent(currentStudent);
             cout << "Degree Program: ";
             printDegreeString(currentStudent->getDegreeProgram());
