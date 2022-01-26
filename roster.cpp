@@ -199,7 +199,6 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 listStudent(currentStudent, degreeProgram);
                 break;
         }
-//        if (currentStudent->getDegreeProgram())
     }
 }
 
