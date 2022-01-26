@@ -191,7 +191,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 cout << currentStudent->getId();
                 cout << " ";
                 cout << "First Name: ";
-                cout << currentStudent-> getFirstName();
+                cout << currentStudent->getFirstName();
                 cout << " ";
                 cout << "Last Name:";
                 break;
@@ -204,6 +204,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         }
 //        if (currentStudent->getDegreeProgram())
     }
+}
 //    for (int idx = 0; idx < 5; idx++) {
 //        auto *currentStudent = classRosterArray[idx];
 ////        if (degreeProgram == )
@@ -234,7 +235,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
 //        cout << " ";
 //TODO: FINISH AVOIDING MALLOC ERR
 // [$K083]
-    }
+//    }
 
 //    switch (degreeProgram) {
 //        case SECURITY:
