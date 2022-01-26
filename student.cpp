@@ -21,8 +21,10 @@ string Student::getFirstName() {return firstName;}
 string Student::getLastName() {return lastName;}
 string Student::getEmailAddress() {return emailAddress;}
 string Student::getAge() {return age;}
-int Student::getDays(int atArray) {return daysInCourse[atArray];}
-DegreeProgram Student::getDegreeProgram() {return degreeProgram;}
+int Student::getDays(int atArray) {
+    return daysInCourse[atArray];}
+DegreeProgram Student::getDegreeProgram() {
+    return degreeProgram;}
 
 void Student::setId(string studentId) {
     this -> studentId = move(studentId);
@@ -36,7 +38,8 @@ void Student::setLastName(string lastName) {
 void Student::setEmailAddress(string emailAddress) {
     this -> emailAddress = move(emailAddress);
 }
-void Student::setAge(string age) {this -> age = std::move(age);}
+void Student::setAge(string age) {
+    this -> age = std::move(age);}
 void Student::setDays(int int0, int int1, int int2) {
     this -> daysInCourse[0] = int0;
     this -> daysInCourse[1] = int1;
