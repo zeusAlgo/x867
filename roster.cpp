@@ -181,7 +181,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         int count = 0;
         cout << degreeProgram;
         cout << " | ", currentStudent->getDegreeProgram();
-
+        cout << currentStudent->getDegreeProgram();
         //get Students who have that degree
         switch (degreeProgram) {
             case 2:
