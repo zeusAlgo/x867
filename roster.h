@@ -33,8 +33,6 @@ public:
 
     void printInvalidEmails() const;
 
-    void printByDegreeProgram(DegreeProgram degreeProgram) const;
-
     static void showHeader(const string& headerText);
 
     void printByDegreeProgram(DegreeProgram degreeProgram);
