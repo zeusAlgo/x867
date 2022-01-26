@@ -180,7 +180,10 @@ void Roster::printInvalidEmails() const {
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     // loop through and get number of students in each program.
     // put in hashmap. call for switch statement
-    
+    unordered_map<int, int> degreeFrequencyMap;
+    for (int idx = 0; idx < 5; idx++) {
+        
+    }
     showHeader("Printing students by degree program: ");
     for (int idx = 0; idx < 5; idx++) {
         auto *currentStudent = classRosterArray[idx];
