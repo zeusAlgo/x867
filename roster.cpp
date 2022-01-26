@@ -181,6 +181,10 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     showHeader("Printing students by degree program: ");
     for (int idx = 0; idx < 5; idx++) {
         auto *currentStudent = classRosterArray[idx];
+        switch (degreeProgram) {
+            case 2:
+                cout << "SOFTWARE"; break;
+        }
         if (degreeProgram == 2) {cout << "SOFTWARE";}
         cout << "here";
         cout << currentStudent->getId();
