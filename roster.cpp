@@ -178,9 +178,15 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     degreeFrequencyMap[0] = 2;
     for (int idx = 0; idx < degreeFrequencyMap[degreeProgram]; idx++) {
         auto * currentStudent = classRosterArray[idx];
+        int count = 0;
+        cout << degreeProgram;
+        cout << " | ", currentStudent->getDegreeProgram();
+
+        //get Students who have that degree
         switch (degreeProgram) {
             case 2:
                 cout << "SOFTWARE";
+                // ls students with degree | try again until trg deg found
                 listStudent(currentStudent);
                 break;
             case 1:
