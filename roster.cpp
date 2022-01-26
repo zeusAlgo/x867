@@ -184,7 +184,8 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     for (int idx = 0; idx < 5; idx++) {
         // if value in hmap += 1 val
         // else insert into hmap val = 1
-        
+        auto *currentStudent = classRosterArray[idx];
+//        if (currentStudent->getDegreeProgram())
     }
     showHeader("Printing students by degree program: ");
     for (int idx = 0; idx < 5; idx++) {
