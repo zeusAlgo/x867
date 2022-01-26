@@ -187,7 +187,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         auto *currentStudent = classRosterArray[idx];
         switch (degreeProgram) {
             case 2:
-                cout << "SECURITY";
+                cout << "SOFTWARE";
                 cout << currentStudent->getId();
                 cout << " ";
                 cout << "First Name: ";
@@ -201,7 +201,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 cout << "NETWORK";
                 break;
             case 0:
-                cout << "SOFTWARE";
+                cout << "SECURITY";
                 break;
         }
 //        if (currentStudent->getDegreeProgram())
