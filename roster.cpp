@@ -206,13 +206,13 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
         if ((degreeProgram == currentStudent) |
             (currentStudent== 3 && degreeProgram == 2)) {
             cout << "here";
-            cout << currentStudent->getId();
+//            cout << currentStudent->getId();
             cout << " ";
             cout << "First Name: ";
-            cout << currentStudent-> getFirstName();
+//            cout << currentStudent-> getFirstName();
             cout << " ";
             cout << "Last Name:";
-            cout << currentStudent-> getLastName();
+//            cout << currentStudent-> getLastName();
             cout << " ";
             cout << "Age: ";
             classRosterArray[idx] -> printUsr(4);
