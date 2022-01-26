@@ -184,7 +184,8 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
         case NETWORK:
             cout << "NETWORK"; break;
         case SOFTWARE:
-            cout << "SOFTWARE"; break;
+            cout << "SOFTWARE";
+//            break;
             for (int idx = 0; idx < 5; idx++) {
                 cout << "here";
                 cout << classRosterArray[idx]->getId();
