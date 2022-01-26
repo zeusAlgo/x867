@@ -185,40 +185,40 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         cout << " ";
     }
 
-    switch (degreeProgram) {
-        case SECURITY:
-            cout << "SECURITY"; break;
-        case NETWORK:
-            cout << "NETWORK"; break;
-        case SOFTWARE:
-            cout << "SOFTWARE";
+//    switch (degreeProgram) {
+//        case SECURITY:
+//            cout << "SECURITY"; break;
+//        case NETWORK:
+//            cout << "NETWORK"; break;
+//        case SOFTWARE:
+//            cout << "SOFTWARE";
+////            break;
+//            for (int idx = 0; idx < 5; idx++) {
+//                auto * currentStudent = classRosterArray[idx];
+//                cout << "here";
+//                cout << currentStudent->getId();
+//                cout << " ";
+//                cout << "First Name: ";
+//                cout << classRosterArray[idx]-> getFirstName();
+//                cout << " ";
+//                cout << "Last Name:";
+//                cout << " ";
+//                cout << "Age: ";
+//                classRosterArray[idx] -> printUsr(4);
+//                cout << "";
+//                cout << "Days in Course {";
+//                classRosterArray[idx] -> printUsr(5);
+//                cout << " ";
+//                classRosterArray[idx] -> printUsr(6);
+//                cout << " ";
+//                classRosterArray[idx] -> printUsr(7);
+//                cout << "}";
+//                cout << "Degree Program: ";
+//            }
 //            break;
-            for (int idx = 0; idx < 5; idx++) {
-                auto * currentStudent = classRosterArray[idx];
-                cout << "here";
-                cout << currentStudent->getId();
-                cout << " ";
-                cout << "First Name: ";
-                cout << classRosterArray[idx]-> getFirstName();
-                cout << " ";
-                cout << "Last Name:";
-                cout << " ";
-                cout << "Age: ";
-                classRosterArray[idx] -> printUsr(4);
-                cout << "";
-                cout << "Days in Course {";
-                classRosterArray[idx] -> printUsr(5);
-                cout << " ";
-                classRosterArray[idx] -> printUsr(6);
-                cout << " ";
-                classRosterArray[idx] -> printUsr(7);
-                cout << "}";
-                cout << "Degree Program: ";
-            }
-            break;
-        default:
-            cout << "NULL"; break;
-    }
+//        default:
+//            cout << "NULL"; break;
+//    }
 
 //    for (int idx = 0; idx < 5; idx++) {
 ////        Student *currentStudent = classRosterArray[idx];
