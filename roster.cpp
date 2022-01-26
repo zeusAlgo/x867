@@ -188,19 +188,15 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         switch (degreeProgram) {
             case 2:
                 cout << "SOFTWARE";
-                cout << currentStudent->getId();
                 listStudent(currentStudent, degreeProgram);
-                cout << " ";
-                cout << "First Name: ";
-                cout << currentStudent->getFirstName();
-                cout << " ";
-                cout << "Last Name:";
                 break;
             case 1:
                 cout << "NETWORK";
+                listStudent(currentStudent, degreeProgram);
                 break;
             case 0:
                 cout << "SECURITY";
+                listStudent(currentStudent, degreeProgram);
                 break;
         }
 //        if (currentStudent->getDegreeProgram())
