@@ -192,6 +192,12 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 cout << " ";
                 cout << "Last Name:";
                 break;
+            case SECURITY:
+                break;
+            case NETWORK:
+                break;
+            case INIT:
+                break;
         }
         if (degreeProgram == 2) {cout << "SOFTWARE";}
         cout << "here";
