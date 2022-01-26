@@ -37,6 +37,8 @@ public:
 
     static void showHeader(const string& headerText);
 
+    void printByDegreeProgram(DegreeProgram degreeProgram);
+
 private:
     static void printDegreeString(int dp);
 
@@ -44,5 +46,4 @@ private:
 
     static void printDivider();
 
-    void printByDegreeProgram(DegreeProgram degreeProgram);
 };
