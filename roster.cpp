@@ -182,8 +182,9 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         auto *currentStudent = classRosterArray[idx];
         cout << "here";
         cout << currentStudent->getId();
+        cout << currentStudent->getFirstName();
         cout << " ";
-        
+
     }
 
 //    switch (degreeProgram) {
