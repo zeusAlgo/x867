@@ -203,7 +203,14 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
 }
 
 void Roster::listStudent(Student *currentStudent, DegreeProgram degreeProgram) {
-    cout << currentStudent->getId();
+    cout << currentStudent->getId(); printDivider();
+    cout << currentStudent->getFirstName(); printSpace();
+    cout << currentStudent->getLastName(); printDivider();
+    cout << currentStudent->getEmailAddress(); printDivider();
+    cout << currentStudent->getAge(); printDivider();
+    cout << currentStudent->getDays(0);cout << ", ";
+    cout << currentStudent->getDays(1);cout << ", ";
+    cout << currentStudent->getDays(2) ;cout << " \n";
 }
 //    for (int idx = 0; idx < 5; idx++) {
 //        auto *currentStudent = classRosterArray[idx];
