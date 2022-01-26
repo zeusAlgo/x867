@@ -188,7 +188,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 cout << currentStudent->getId();
                 cout << " ";
                 cout << "First Name: ";
-                cout << classRosterArray[idx]-> getFirstName();
+                cout << currentStudent-> getFirstName();
                 cout << " ";
                 cout << "Last Name:";
                 break;
