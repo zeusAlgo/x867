@@ -122,14 +122,6 @@ void Roster::printAll() const {
                 currentStudent != classRosterArray[idx-1]) {
             //perhaps ring lsStudent()
             listStudent(currentStudent);
-//            cout << currentStudent->getId(); printDivider();
-//            cout << currentStudent->getFirstName(); printSpace();
-//            cout << currentStudent->getLastName(); printDivider();
-//            cout << currentStudent->getEmailAddress(); printDivider();
-//            cout << currentStudent->getAge(); printDivider();
-//            cout << currentStudent->getDays(0);cout << ", ";
-//            cout << currentStudent->getDays(1);cout << ", ";
-//            cout << currentStudent->getDays(2) ;cout << " \n";
             cout << "Degree Program: ";
             printDegreeString(currentStudent->getDegreeProgram());
             cout << "\n-------------------------" << endl;
