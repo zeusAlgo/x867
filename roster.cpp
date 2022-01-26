@@ -180,8 +180,9 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         auto * currentStudent = classRosterArray[idx];
         int count = 0;
         cout << degreeProgram;
-        cout << " | ", currentStudent->getDegreeProgram();
+        cout << " | ";
         cout << currentStudent->getDegreeProgram();
+
         //get Students who have that degree
         switch (degreeProgram) {
             case 2:
