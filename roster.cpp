@@ -178,6 +178,10 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
 //    degreeFrequencyMap[0] = 2;
 //    for (int idx = 0; idx < degreeFrequencyMap[degreeProgram]; idx++) {
 
+    unordered_map<int, int> majorMap;
+    majorMap[2] = 3;
+    majorMap[1] = 1;
+    majorMap[0] = 0;
     for (int idx = 0; idx < 5; idx++) {
         auto * currentStudent = classRosterArray[idx];
         int count = 0;
@@ -185,7 +189,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         cout << " | ";
         cout << currentStudent->getDegreeProgram();
 
-        if (degreeProgram == currentStudent->getDegreeProgram()) {
+        if (majorMap[degreeProgram] == currentStudent->getDegreeProgram()) {
             listStudent(currentStudent);
         }
         //get Students who have that degree
