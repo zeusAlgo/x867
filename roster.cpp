@@ -183,7 +183,15 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         auto *currentStudent = classRosterArray[idx];
         switch (degreeProgram) {
             case 2:
-                cout << "SOFTWARE"; break;
+                cout << "SOFTWARE";
+                cout << "here";
+                cout << currentStudent->getId();
+                cout << " ";
+                cout << "First Name: ";
+                cout << classRosterArray[idx]-> getFirstName();
+                cout << " ";
+                cout << "Last Name:";
+                break;
         }
         if (degreeProgram == 2) {cout << "SOFTWARE";}
         cout << "here";
@@ -205,13 +213,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
 ////            break;
 //            for (int idx = 0; idx < 5; idx++) {
 //                auto * currentStudent = classRosterArray[idx];
-//                cout << "here";
-//                cout << currentStudent->getId();
-//                cout << " ";
-//                cout << "First Name: ";
-//                cout << classRosterArray[idx]-> getFirstName();
-//                cout << " ";
-//                cout << "Last Name:";
+
 //                cout << " ";
 //                cout << "Age: ";
 //                classRosterArray[idx] -> printUsr(4);
