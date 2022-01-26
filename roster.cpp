@@ -189,12 +189,6 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         // if value in hmap += 1 val
         // else insert into hmap val = 1
         auto *currentStudent = classRosterArray[idx];
-
-//        if (currentStudent->getDegreeProgram())
-    }
-    for (int idx = 0; idx < 5; idx++) {
-        auto *currentStudent = classRosterArray[idx];
-//        if (degreeProgram == )
         switch (currentStudent->getDegreeProgram()) {
             case 3:
                 cout << "SOFTWARE";
@@ -213,13 +207,36 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
             case 0:
                 break;
         }
-        if (degreeProgram == 2) {cout << "SOFTWARE";}
-        cout << "here";
-        cout << currentStudent->getId();
-        cout << currentStudent->getDegreeProgram();
-        cout << degreeProgram;
-        cout << currentStudent->getFirstName();
-        cout << " ";
+//        if (currentStudent->getDegreeProgram())
+    }
+//    for (int idx = 0; idx < 5; idx++) {
+//        auto *currentStudent = classRosterArray[idx];
+////        if (degreeProgram == )
+//        switch (currentStudent->getDegreeProgram()) {
+//            case 3:
+//                cout << "SOFTWARE";
+//                cout << "here";
+//                cout << currentStudent->getId();
+//                cout << " ";
+//                cout << "First Name: ";
+//                cout << currentStudent-> getFirstName();
+//                cout << " ";
+//                cout << "Last Name:";
+//                break;
+//            case 2:
+//                break;
+//            case 1:
+//                break;
+//            case 0:
+//                break;
+//        }
+//        if (degreeProgram == 2) {cout << "SOFTWARE";}
+//        cout << "here";
+//        cout << currentStudent->getId();
+//        cout << currentStudent->getDegreeProgram();
+//        cout << degreeProgram;
+//        cout << currentStudent->getFirstName();
+//        cout << " ";
 //TODO: FINISH AVOIDING MALLOC ERR
 // [$K083]
     }
