@@ -46,5 +46,5 @@ private:
 
     static void printDivider();
 
-    void listStudent(Student *currentStudent);
+    void listStudent(Student *currentStudent) const;
 };
