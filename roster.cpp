@@ -187,7 +187,7 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         cout << degreeProgram;
         cout << currentStudent->getFirstName();
         cout << " ";
-
+//TODO: FINISH AVOIDING MALLOC ERR
     }
 
 //    switch (degreeProgram) {
