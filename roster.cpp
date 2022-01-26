@@ -192,9 +192,9 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
     for (int idx = 0; idx < 5; idx++) {
 //        Student *currentStudent = classRosterArray[idx];
 
-        int currentStudent =
-                classRosterArray[idx]->getDegreeProgram();
-        cout << "\n";
+//        int currentStudent =
+//                classRosterArray[idx]->getDegreeProgram();
+//        cout << "\n";
 //        int degreeIdx;
 //        degreeIdx = reinterpret_cast<int>(currentStudent);
 //        int dIdx;
