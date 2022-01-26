@@ -184,7 +184,6 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     degreeFrequencyMap[1] = 1;
     degreeFrequencyMap[0] = 2;
     for (int idx = 0; idx < degreeFrequencyMap[degreeProgram]; idx++) {
-        auto *currentStudent = classRosterArray[idx];
         switch (degreeProgram) {
             case 2:
                 cout << "SOFTWARE";
@@ -195,8 +194,6 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
                 cout << " ";
                 cout << "Last Name:";
                 break;
-//            case 2:
-//                break;
             case 1:
                 cout << "NETWORK";
                 break;
@@ -206,6 +203,10 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         }
 //        if (currentStudent->getDegreeProgram())
     }
+}
+
+void Roster::listStudent(DegreeProgram degreeProgram) {
+
 }
 //    for (int idx = 0; idx < 5; idx++) {
 //        auto *currentStudent = classRosterArray[idx];

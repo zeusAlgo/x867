@@ -46,4 +46,5 @@ private:
 
     static void printDivider();
 
+    void listStudent(DegreeProgram degreeProgram);
 };
