@@ -176,7 +176,7 @@ void Roster::printInvalidEmails() const {
     cout << endl;
 }
 
-void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
+void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     showHeader("Printing students by degree program: ");
     switch (degreeProgram) {
         case SECURITY:
@@ -212,49 +212,49 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) const {
             cout << "NULL"; break;
     }
 
-    for (int idx = 0; idx < 5; idx++) {
-//        Student *currentStudent = classRosterArray[idx];
-
-//        int currentStudent =
-//                classRosterArray[idx]->getDegreeProgram();
-//        cout << "\n";
-//        int degreeIdx;
-//        degreeIdx = reinterpret_cast<int>(currentStudent);
-//        int dIdx;
-//        if (degreeIdx == 3) {
-//            dIdx = 2;
-//        }
-//        cout << degreeIdx;
-//        cout << degreeProgram;
-        if
-//                (
-//                degreeProgram == classRosterArray[idx]->getDegreeProgram()) |
-            (classRosterArray[idx]->getDegreeProgram() == 3) {
-//            && (degreeProgram == 2)){
-            cout << "here";
-//            cout << currentStudent->getId();
-            cout << " ";
-            cout << "First Name: ";
-//            cout << currentStudent-> getFirstName();
-            cout << " ";
-            cout << "Last Name:";
-//            cout << currentStudent-> getLastName();
-            cout << " ";
-            cout << "Age: ";
-            classRosterArray[idx] -> printUsr(4);
-            cout << "";
-            cout << "Days in Course {";
-            classRosterArray[idx] -> printUsr(5);
-            cout << " ";
-            classRosterArray[idx] -> printUsr(6);
-            cout << " ";
-            classRosterArray[idx] -> printUsr(7);
-            cout << "}";
-            cout << "Degree Program: ";
-
-            printDegreeString(
-                        classRosterArray[idx] -> getDegreeProgram());
-            cout << endl;
-        }
-    }
+//    for (int idx = 0; idx < 5; idx++) {
+////        Student *currentStudent = classRosterArray[idx];
+//
+////        int currentStudent =
+////                classRosterArray[idx]->getDegreeProgram();
+////        cout << "\n";
+////        int degreeIdx;
+////        degreeIdx = reinterpret_cast<int>(currentStudent);
+////        int dIdx;
+////        if (degreeIdx == 3) {
+////            dIdx = 2;
+////        }
+////        cout << degreeIdx;
+////        cout << degreeProgram;
+////        if
+//////                (
+//////                degreeProgram == classRosterArray[idx]->getDegreeProgram()) |
+////            (classRosterArray[idx]->getDegreeProgram() == 3) {
+//////            && (degreeProgram == 2)){
+////            cout << "here";
+//////            cout << currentStudent->getId();
+////            cout << " ";
+////            cout << "First Name: ";
+//////            cout << currentStudent-> getFirstName();
+////            cout << " ";
+////            cout << "Last Name:";
+//////            cout << currentStudent-> getLastName();
+////            cout << " ";
+////            cout << "Age: ";
+////            classRosterArray[idx] -> printUsr(4);
+////            cout << "";
+////            cout << "Days in Course {";
+////            classRosterArray[idx] -> printUsr(5);
+////            cout << " ";
+////            classRosterArray[idx] -> printUsr(6);
+////            cout << " ";
+////            classRosterArray[idx] -> printUsr(7);
+////            cout << "}";
+////            cout << "Degree Program: ";
+////
+////            printDegreeString(
+////                        classRosterArray[idx] -> getDegreeProgram());
+////            cout << endl;
+////        }
+//    }
 }

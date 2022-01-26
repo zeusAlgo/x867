@@ -44,4 +44,5 @@ private:
 
     static void printDivider();
 
+    void printByDegreeProgram(DegreeProgram degreeProgram);
 };
