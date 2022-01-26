@@ -178,6 +178,13 @@ void Roster::printInvalidEmails() const {
 
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     showHeader("Printing students by degree program: ");
+    for (int idx = 0; idx < 5; idx++) {
+        auto *currentStudent = classRosterArray[idx];
+        cout << "here";
+        cout << currentStudent->getId();
+        cout << " ";
+    }
+
     switch (degreeProgram) {
         case SECURITY:
             cout << "SECURITY"; break;
