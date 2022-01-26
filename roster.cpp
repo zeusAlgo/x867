@@ -172,10 +172,10 @@ void Roster::printInvalidEmails() const {
 
 void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
     showHeader("Printing students by degree program: ");
-    unordered_map<int, int> degreeFrequencyMap;
-    degreeFrequencyMap[2] = 2;
-    degreeFrequencyMap[1] = 1;
-    degreeFrequencyMap[0] = 2;
+//    unordered_map<int, int> degreeFrequencyMap;
+//    degreeFrequencyMap[2] = 2;
+//    degreeFrequencyMap[1] = 1;
+//    degreeFrequencyMap[0] = 2;
 //    for (int idx = 0; idx < degreeFrequencyMap[degreeProgram]; idx++) {
 
     for (int idx = 0; idx < 5; idx++) {
@@ -185,22 +185,25 @@ void Roster::printByDegreeProgram(DegreeProgram degreeProgram) {
         cout << " | ";
         cout << currentStudent->getDegreeProgram();
 
-        //get Students who have that degree
-        switch (degreeProgram) {
-            case 2:
-                cout << "SOFTWARE";
-                // ls students with degree | try again until trg deg found
-                listStudent(currentStudent);
-                break;
-            case 1:
-                cout << "NETWORK";
-                listStudent(currentStudent);
-                break;
-            case 0:
-                cout << "SECURITY";
-                listStudent(currentStudent);
-                break;
+        if (degreeProgram == currentStudent->getDegreeProgram()) {
+            listStudent(currentStudent);
         }
+        //get Students who have that degree
+//        switch (degreeProgram) {
+//            case 2:
+//                cout << "SOFTWARE";
+//                // ls students with degree | try again until trg deg found
+//                listStudent(currentStudent);
+//                break;
+//            case 1:
+//                cout << "NETWORK";
+//                listStudent(currentStudent);
+//                break;
+//            case 0:
+//                cout << "SECURITY";
+//                listStudent(currentStudent);
+//                break;
+//        }
     }
 }
 
