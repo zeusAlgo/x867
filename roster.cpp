@@ -54,8 +54,8 @@ void Roster::removeStudent(const string& sId) const {
     cout << "Student " << sId << " not found.";
 }
 
-void Roster::parseArray(int rosterIndex) {
-    string studentDataString = studentData[rosterIndex];
+void Roster::parseArray(int idx) {
+    string studentDataString = studentData[idx];
     int stringLength = studentDataString.length();
 
     string studentId; string firstName; string lastName; string email;
@@ -65,7 +65,7 @@ void Roster::parseArray(int rosterIndex) {
 
     int i = 0; int commasSkipped = 0;
 
-    for (i = 0; i < stringLength; i++) {
+    for (i = 0; i < studentDataString.length(); i++) {
         char s = studentDataString.at(i);
         if (s != ',') {
             switch (commasSkipped) {
@@ -106,7 +106,7 @@ void Roster::parseArray(int rosterIndex) {
         studentDegree = INIT;
     }
     addStudent(
-            rosterIndex, studentId, firstName,
+            idx, studentId, firstName,
             lastName,email, age, days0,
             days1, days2, studentDegree
             );
