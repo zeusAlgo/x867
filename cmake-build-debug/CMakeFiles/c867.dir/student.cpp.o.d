@@ -1,5 +1,5 @@
 CMakeFiles/c867.dir/student.cpp.o: \
- /home/zeusalgo/CLionProjects/x867/student.cpp /usr/include/stdc-predef.h \
+ /home/uz/prj/CLionProjects/x8677/student.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -150,5 +150,5 @@ CMakeFiles/c867.dir/student.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/zeusalgo/CLionProjects/x867/student.h \
- /home/zeusalgo/CLionProjects/x867/degree.h
+ /home/uz/prj/CLionProjects/x8677/student.h \
+ /home/uz/prj/CLionProjects/x8677/degree.h

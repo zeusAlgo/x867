@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/zeusalgo/CLionProjects/x867/cmake-build-debug"
+			"value" : "/home/uz/prj/CLionProjects/x8677/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,7 +155,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/zeusalgo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cmake"
+			"value" : "/home/uz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -167,7 +167,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/zeusalgo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cpack"
+			"value" : "/home/uz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/zeusalgo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/ctest"
+			"value" : "/home/uz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/zeusalgo/CLionProjects/x867"
+			"value" : "/home/uz/prj/CLionProjects/x8677"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -967,7 +967,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/zeusalgo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/share/cmake-3.21"
+			"value" : "/home/uz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/share/cmake-3.21"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/zeusalgo/CLionProjects/x867/cmake-build-debug"
+			"value" : "/home/uz/prj/CLionProjects/x8677/cmake-build-debug"
 		},
 		{
 			"name" : "c867_IS_TOP_LEVEL",
@@ -1271,7 +1271,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/zeusalgo/CLionProjects/x867"
+			"value" : "/home/uz/prj/CLionProjects/x8677"
 		}
 	],
 	"kind" : "cache",

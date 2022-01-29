@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zeusalgo/CLionProjects/x867/main.cpp" "CMakeFiles/c867.dir/main.cpp.o" "gcc" "CMakeFiles/c867.dir/main.cpp.o.d"
-  "/home/zeusalgo/CLionProjects/x867/roster.cpp" "CMakeFiles/c867.dir/roster.cpp.o" "gcc" "CMakeFiles/c867.dir/roster.cpp.o.d"
-  "/home/zeusalgo/CLionProjects/x867/student.cpp" "CMakeFiles/c867.dir/student.cpp.o" "gcc" "CMakeFiles/c867.dir/student.cpp.o.d"
+  "/home/uz/prj/CLionProjects/x8677/main.cpp" "CMakeFiles/c867.dir/main.cpp.o" "gcc" "CMakeFiles/c867.dir/main.cpp.o.d"
+  "/home/uz/prj/CLionProjects/x8677/roster.cpp" "CMakeFiles/c867.dir/roster.cpp.o" "gcc" "CMakeFiles/c867.dir/roster.cpp.o.d"
+  "/home/uz/prj/CLionProjects/x8677/student.cpp" "CMakeFiles/c867.dir/student.cpp.o" "gcc" "CMakeFiles/c867.dir/student.cpp.o.d"
   )
 
 # Targets to which this target links.

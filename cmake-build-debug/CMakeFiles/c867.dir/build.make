@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/zeusalgo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/uz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/zeusalgo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/uz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.75/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zeusalgo/CLionProjects/x867
+CMAKE_SOURCE_DIR = /home/uz/prj/CLionProjects/x8677
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zeusalgo/CLionProjects/x867/cmake-build-debug
+CMAKE_BINARY_DIR = /home/uz/prj/CLionProjects/x8677/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/c867.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/c867.dir/flags.make
 CMakeFiles/c867.dir/main.cpp.o: CMakeFiles/c867.dir/flags.make
 CMakeFiles/c867.dir/main.cpp.o: ../main.cpp
 CMakeFiles/c867.dir/main.cpp.o: CMakeFiles/c867.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeusalgo/CLionProjects/x867/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c867.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c867.dir/main.cpp.o -MF CMakeFiles/c867.dir/main.cpp.o.d -o CMakeFiles/c867.dir/main.cpp.o -c /home/zeusalgo/CLionProjects/x867/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uz/prj/CLionProjects/x8677/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c867.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c867.dir/main.cpp.o -MF CMakeFiles/c867.dir/main.cpp.o.d -o CMakeFiles/c867.dir/main.cpp.o -c /home/uz/prj/CLionProjects/x8677/main.cpp
 
 CMakeFiles/c867.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c867.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zeusalgo/CLionProjects/x867/main.cpp > CMakeFiles/c867.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uz/prj/CLionProjects/x8677/main.cpp > CMakeFiles/c867.dir/main.cpp.i
 
 CMakeFiles/c867.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c867.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zeusalgo/CLionProjects/x867/main.cpp -o CMakeFiles/c867.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uz/prj/CLionProjects/x8677/main.cpp -o CMakeFiles/c867.dir/main.cpp.s
 
 CMakeFiles/c867.dir/roster.cpp.o: CMakeFiles/c867.dir/flags.make
 CMakeFiles/c867.dir/roster.cpp.o: ../roster.cpp
 CMakeFiles/c867.dir/roster.cpp.o: CMakeFiles/c867.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeusalgo/CLionProjects/x867/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c867.dir/roster.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c867.dir/roster.cpp.o -MF CMakeFiles/c867.dir/roster.cpp.o.d -o CMakeFiles/c867.dir/roster.cpp.o -c /home/zeusalgo/CLionProjects/x867/roster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uz/prj/CLionProjects/x8677/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c867.dir/roster.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c867.dir/roster.cpp.o -MF CMakeFiles/c867.dir/roster.cpp.o.d -o CMakeFiles/c867.dir/roster.cpp.o -c /home/uz/prj/CLionProjects/x8677/roster.cpp
 
 CMakeFiles/c867.dir/roster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c867.dir/roster.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zeusalgo/CLionProjects/x867/roster.cpp > CMakeFiles/c867.dir/roster.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uz/prj/CLionProjects/x8677/roster.cpp > CMakeFiles/c867.dir/roster.cpp.i
 
 CMakeFiles/c867.dir/roster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c867.dir/roster.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zeusalgo/CLionProjects/x867/roster.cpp -o CMakeFiles/c867.dir/roster.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uz/prj/CLionProjects/x8677/roster.cpp -o CMakeFiles/c867.dir/roster.cpp.s
 
 CMakeFiles/c867.dir/student.cpp.o: CMakeFiles/c867.dir/flags.make
 CMakeFiles/c867.dir/student.cpp.o: ../student.cpp
 CMakeFiles/c867.dir/student.cpp.o: CMakeFiles/c867.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zeusalgo/CLionProjects/x867/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c867.dir/student.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c867.dir/student.cpp.o -MF CMakeFiles/c867.dir/student.cpp.o.d -o CMakeFiles/c867.dir/student.cpp.o -c /home/zeusalgo/CLionProjects/x867/student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uz/prj/CLionProjects/x8677/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c867.dir/student.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c867.dir/student.cpp.o -MF CMakeFiles/c867.dir/student.cpp.o.d -o CMakeFiles/c867.dir/student.cpp.o -c /home/uz/prj/CLionProjects/x8677/student.cpp
 
 CMakeFiles/c867.dir/student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c867.dir/student.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zeusalgo/CLionProjects/x867/student.cpp > CMakeFiles/c867.dir/student.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uz/prj/CLionProjects/x8677/student.cpp > CMakeFiles/c867.dir/student.cpp.i
 
 CMakeFiles/c867.dir/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c867.dir/student.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zeusalgo/CLionProjects/x867/student.cpp -o CMakeFiles/c867.dir/student.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uz/prj/CLionProjects/x8677/student.cpp -o CMakeFiles/c867.dir/student.cpp.s
 
 # Object files for target c867
 c867_OBJECTS = \
@@ -125,7 +125,7 @@ c867: CMakeFiles/c867.dir/roster.cpp.o
 c867: CMakeFiles/c867.dir/student.cpp.o
 c867: CMakeFiles/c867.dir/build.make
 c867: CMakeFiles/c867.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zeusalgo/CLionProjects/x867/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable c867"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uz/prj/CLionProjects/x8677/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable c867"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c867.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/c867.dir/clean:
 .PHONY : CMakeFiles/c867.dir/clean
 
 CMakeFiles/c867.dir/depend:
-	cd /home/zeusalgo/CLionProjects/x867/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zeusalgo/CLionProjects/x867 /home/zeusalgo/CLionProjects/x867 /home/zeusalgo/CLionProjects/x867/cmake-build-debug /home/zeusalgo/CLionProjects/x867/cmake-build-debug /home/zeusalgo/CLionProjects/x867/cmake-build-debug/CMakeFiles/c867.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uz/prj/CLionProjects/x8677/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uz/prj/CLionProjects/x8677 /home/uz/prj/CLionProjects/x8677 /home/uz/prj/CLionProjects/x8677/cmake-build-debug /home/uz/prj/CLionProjects/x8677/cmake-build-debug /home/uz/prj/CLionProjects/x8677/cmake-build-debug/CMakeFiles/c867.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/c867.dir/depend
 

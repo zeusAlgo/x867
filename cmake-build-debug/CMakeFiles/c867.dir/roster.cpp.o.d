@@ -1,5 +1,5 @@
 CMakeFiles/c867.dir/roster.cpp.o: \
- /home/zeusalgo/CLionProjects/x867/roster.cpp /usr/include/stdc-predef.h \
+ /home/uz/prj/CLionProjects/x8677/roster.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -151,9 +151,9 @@ CMakeFiles/c867.dir/roster.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/zeusalgo/CLionProjects/x867/student.h \
- /home/zeusalgo/CLionProjects/x867/degree.h \
- /home/zeusalgo/CLionProjects/x867/roster.h \
+ /home/uz/prj/CLionProjects/x8677/student.h \
+ /home/uz/prj/CLionProjects/x8677/degree.h \
+ /home/uz/prj/CLionProjects/x8677/roster.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/unordered_map.h

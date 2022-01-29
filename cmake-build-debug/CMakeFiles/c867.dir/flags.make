@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/zeusalgo/CLionProjects/x867/.
+CXX_INCLUDES = -I/home/uz/prj/CLionProjects/x8677/.
 
 CXX_FLAGS = -g -std=gnu++14
 

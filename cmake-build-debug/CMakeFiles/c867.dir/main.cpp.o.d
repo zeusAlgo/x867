@@ -1,6 +1,5 @@
-CMakeFiles/c867.dir/main.cpp.o: \
- /home/zeusalgo/CLionProjects/x867/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/11/iostream \
+CMakeFiles/c867.dir/main.cpp.o: /home/uz/prj/CLionProjects/x8677/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -142,9 +141,9 @@ CMakeFiles/c867.dir/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/zeusalgo/CLionProjects/x867/roster.h \
- /home/zeusalgo/CLionProjects/x867/student.h \
- /home/zeusalgo/CLionProjects/x867/degree.h \
+ /home/uz/prj/CLionProjects/x8677/roster.h \
+ /home/uz/prj/CLionProjects/x8677/student.h \
+ /home/uz/prj/CLionProjects/x8677/degree.h \
  /usr/include/c++/11/unordered_map \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/hashtable.h \
