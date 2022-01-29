@@ -56,7 +56,7 @@ void Roster::removeStudent(const string& sId) const {
 
 void Roster::parseArray(int idx) {
     string studentDataString = studentData[idx];
-
+    cout << studentDataString;
     string studentId; string firstName; string lastName; string email;
     string age; string stringDays0; string stringDays1; string stringDays2;
     int days0 = 0; int days1 = 0; int days2 = 0;
