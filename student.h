@@ -17,8 +17,6 @@ public:
     void setAge(std::string age); void setDays(int int0, int int1, int int2);
     void setDegreeProgram(DegreeProgram degree);
 
-    void printUsr(int val);
-
 private:
     string studentId; string firstName; string lastName;
     string emailAddress; string age; int daysInCourse[3];
