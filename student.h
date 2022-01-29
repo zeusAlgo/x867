@@ -15,7 +15,7 @@ public:
     void setId(std::string studentId); void setFirstName(std::string firstName);
     void setLastName(std::string lastName); void setEmailAddress(std::string emailAddress);
     void setAge(std::string age); void setDays(int int0, int int1, int int2);
-    void setDegreeProgram(DegreeProgram degree); void print(int val);
+    void setDegreeProgram(DegreeProgram degree);
 
     void printUsr(int val);
 

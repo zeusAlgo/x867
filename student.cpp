@@ -61,28 +61,3 @@ void Student::printUsr(int val) {
     usrHmap[8] = std::to_string(degreeProgram);
     cout << usrHmap[val];
 }
-
-void Student::print(int val) {
-    switch(val) {
-        case 0:
-            cout<< studentId; break;
-        case 1:
-            cout<< firstName; break;
-        case 2:
-            cout << lastName; break;
-        case 3:
-            cout << emailAddress; break;
-        case 4:
-            cout << age; break;
-        case 5:
-            cout << daysInCourse[0]; break;
-        case 6:
-            cout << daysInCourse[1]; break;
-        case 7:
-            cout << daysInCourse[2]; break;
-        case 8:
-            cout << degreeProgram; break;
-        default:
-            cout << "error"; break;
-    }
-}
