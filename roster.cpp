@@ -56,7 +56,6 @@ void Roster::removeStudent(const string& sId) const {
 
 void Roster::parseArray(int idx) {
     string studentDataString = studentData[idx];
-    int stringLength = studentDataString.length();
 
     string studentId; string firstName; string lastName; string email;
     string age; string stringDays0; string stringDays1; string stringDays2;
@@ -107,7 +106,7 @@ void Roster::parseArray(int idx) {
     }
     addStudent(
             idx, studentId, firstName,
-            lastName,email, age, days0,
+            lastName, email, age, days0,
             days1, days2, studentDegree
             );
 }

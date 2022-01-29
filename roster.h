@@ -25,7 +25,7 @@ public:
 
     void removeStudent(const string& sId) const;
 
-    void parseArray(int rosterIndex);
+    void parseArray(int idx);
 
     void printAll() const;
 
